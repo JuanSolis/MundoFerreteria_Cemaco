@@ -5,6 +5,9 @@ import Offers from './components/Offers/Offers';
 import ServiceBanner from './components/ServiceBanner/ServiceBanner';
 import TopService1 from './img/847556.png';
 import TopService2 from './img/MaskGroup2214.png';
+import TopService3 from './img/PreparaTuAuto1.png';
+import MoreIcon from './img/Icono-FlechaVermásTexto-Cemaco.svg';
+import DepartamentsList from './components/DepartamentsList/DepartamentsList';
 
 function App() {
   return (
@@ -13,9 +16,15 @@ function App() {
       <TopCarousel/>
       <Offers/>
       <div className="TopServicesBanners">
-        <ServiceBanner src={TopService1} service="Plomería"/>
-        <ServiceBanner src={TopService2} service="Pinturas"/>
+        <ServiceBanner colorFont="black" src={TopService1} service="Plomería"/>
+        <ServiceBanner colorFont="black" src={TopService2} service="Pinturas"/>
       </div>
+      <div className="Departaments">
+        <h2 className="tittle">Navega por departamento</h2>
+        <span className="more">Ver todos <img src={MoreIcon}/></span>
+        <DepartamentsList/>
+      </div>
+      <ServiceBanner colorFont="#ffff" src={TopService3} service="Plomería"/>
     </div>
   );
 }

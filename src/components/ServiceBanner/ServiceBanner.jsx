@@ -6,7 +6,7 @@ class ServiceBanner extends React.Component {
     render(){
         return(
             <div className="serviceBanner" style={{backgroundImage: `url(${this.props.src})`}}>
-                <div className="banner">
+                <div className="banner" style={{color: this.props.colorFont}}>
                     <h2>{this.props.service}</h2>
                     <h3>Ver más</h3>
                 </div>
