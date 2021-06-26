@@ -5,4 +5,5 @@
 }
 body {
  font-family: 'Helvetica Neue', 'Helvetica';
+ min-width: 375px;
 }

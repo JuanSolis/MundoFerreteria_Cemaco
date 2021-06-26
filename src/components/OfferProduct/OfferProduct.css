@@ -1,0 +1,38 @@
+.wrapperOfferProduct{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    width: 169px;
+}
+.containerOfferProduct{
+    background-color: #1276A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerOfferProduct .imgOfferProduct {
+    width: 100%;
+    height: 107px;
+}
+
+.containerDetailsOfferProduct{
+    word-break: keep-all;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerDetailsOfferProduct .priceOfferProduct{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+.containerDetailsOfferProduct .nameOfferProducto{
+    font-size: 14px;
+    color: #000000;
+}
