@@ -8,6 +8,7 @@ import TopService2 from './img/MaskGroup2214.png';
 import TopService3 from './img/PreparaTuAuto1.png';
 import MoreIcon from './img/Icono-FlechaVermásTexto-Cemaco.svg';
 import DepartamentsList from './components/DepartamentsList/DepartamentsList';
+import ProductItem from './components/ProductItem/ProductItem';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <span className="more">Ver todos <img src={MoreIcon}/></span>
         <DepartamentsList/>
       </div>
-      <ServiceBanner colorFont="#ffff" src={TopService3} service="Plomería"/>
+      <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
+      <ProductItem/>
     </div>
   );
 }
