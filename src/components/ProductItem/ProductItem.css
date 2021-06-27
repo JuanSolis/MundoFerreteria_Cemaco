@@ -1,7 +1,7 @@
 .productItemContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 13.1px;
+    padding: 0 0 9.4px 13.1px;
     width: 165.5px;
 }
 .productItemContainer .favIcon{

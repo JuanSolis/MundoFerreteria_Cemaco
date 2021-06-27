@@ -8,13 +8,15 @@ import TopService2 from './img/MaskGroup2214.png';
 import TopService3 from './img/PreparaTuAuto1.png';
 import MoreIcon from './img/Icono-FlechaVermásTexto-Cemaco.svg';
 import DepartamentsList from './components/DepartamentsList/DepartamentsList';
-import ProductItem from './components/ProductItem/ProductItem';
+import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 
 function App() {
   return (
     <div className="App">
       <HeaderMobilCemaco/>
-      <TopCarousel/>
+      <div className="topContainer">
+        <TopCarousel/>
+      </div>
       <Offers/>
       <div className="TopServicesBanners">
         <ServiceBanner colorFont="black" src={TopService1} service="Plomería"/>
@@ -26,7 +28,7 @@ function App() {
         <DepartamentsList/>
       </div>
       <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
-      <ProductItem/>
+      <ProductCatalog/>
     </div>
   );
 }

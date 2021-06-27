@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.topContainer{
+    padding: 0px 15px 0 16px;
+}
+
 .TopServicesBanners{
     display: flex;
     justify-content: space-between;

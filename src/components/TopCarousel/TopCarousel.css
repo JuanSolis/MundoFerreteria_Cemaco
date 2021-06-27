@@ -1,119 +1,113 @@
-.containerTopCarousel{
-    position: relative;
+.containerTopCarousel {
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
     height: 345px;
-    margin: 0px;
-    width: 100%;
-}
-ol,ul {
-    list-style: none;
-}
-.topCarousel {
-    padding: 0px 15px 0 16px;
-    height: 100%;
-    margin: 0px;
-    width: 100%;
+    position: relative;
+    
+  }
+  /* Slider wrapper*/
+  .containerTopCarousel .wrapper {
+    display: block;
+    background: #FFF;
+    overflow: hidden;
     position: absolute;
-}
-
-.topCarousel .wrapper{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  /* Slider */
+  .slider {
     width: 100%;
     height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 0;
     display: flex;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-}
-
-
-.h1-mobile-BannerMonster{
-    width: 100%;
-    font-size: 32px;
-    font-weight: bold;
-    padding: 41px 25px 198px 27px;
-    margin: 0;
-    text-align: center;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    object-fit: scale-down;
-}
-
-.white{
-    color: #fff;
-}
-.h1-mobile-BannerMonster .black{
-    color:#000;
-}
-
-.wrapper .carouselItem{
-    width: 100%;
-    flex: 0 0 100%;
-}
-
-.wrapper #carousel__slide1{
-    background-image: url("../../img/0TRUPER2.png");
-    width: 1035px;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.wrapper #carousel__slide2{
-    background-image: url("../../img/Mask\ Group\ 2213.svg");
-    width: 1035px;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-
-.wrapper #carousel__slide3{
-    background-image: url("../../img/Group\ 7914.png");
-    width: 1035px;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-
-.carousel__navigation {
-    position: absolute;
+    padding: 41px 24px 0 22px;
+    transition: -webkit-transform 800ms, transform 800ms;
     text-align: center;
-    padding: 311px 144px 22px 142px;
-    width: 100%;
-}
+  }
+  /* each slide backgound color */  
+  .slide1 {
+    background-image: url("../../img/0TRUPER2.png");
+    left: 0;
+  }
+  .slide2 {
+    background-image: url("../../img/Mask\ Group\ 2213.svg");
+    left: 100%
+  }
+  .slide3 {
+    background-image: url("../../img/Group\ 7914.png");
+    left: 200%
+  }
+
+  /* Slider inner slide effect */
+  .slider .h1-mobile-BannerMonster {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+  }
+
+  .slider .black{
+    color: #000;
+  }
   
-.carousel__navigation-list,
-.carousel__navigation-item {
-    display: inline-block;
-}
+  /* Slider Pagger */ 
+  .pagination {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
 
-.carousel__navigation-list li {
-    margin-right: 14px;
-}
-.carousel__navigation-list li:last-child {
-    margin-right: 0px;
-}
-
-.carousel__navigation-button img{
+  .pagination label {
     width: 10px;
     height: 10px;
-    
-}
+    display: inline-block;
+    background-image: url("../../img/Ellipse 25.svg");
+    margin: 311px 14px 24px 0;
+    cursor: pointer;
+  }
+
+  .pagination label:last-child{
+    margin: 311px 0 24px 0;
+  }
 
 
-*::-webkit-scrollbar {
-    width: 0;
-}
-
-*::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-    background: transparent;
-    border: none;
-}
-
-* {
-    -ms-overflow-style: none;
-}
+  /* Slider Pagger arrow event */
+  .radio1:checked ~ .next .numb2, 
+  .radio2:checked ~ .next .numb3, 
+  .radio3:checked ~ .next .numb4, 
+  .radio2:checked ~ .previous .numb1, 
+  .radio3:checked ~ .previous .numb2{
+    display: block;
+    z-index: 1
+  }
+  /* Slider Pagger event */
+  .radio1:checked ~ .pagination .page1, 
+  .radio2:checked ~ .pagination .page2, 
+  .radio3:checked ~ .pagination .page3{
+    background-image: url("../../img/Ellipse 23.svg");
+  }
+  /* Slider slide effect */
+  .radio1:checked ~ .slider {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  .radio2:checked ~ .slider {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .radio3:checked ~ .slider {
+    -webkit-transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+ 

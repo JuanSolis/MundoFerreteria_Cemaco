@@ -7,45 +7,31 @@ class TopCarousel extends React.Component{
     render(){
         return(
                 <div className="containerTopCarousel">
-                    <div className="topCarousel">
-                        <div className="wrapper">
-                            <div id="carousel__slide1" className="carouselItem">
-                                <h1 className="h1-mobile-BannerMonster white">
-                                    La mejor calidad para tus proyectos
-                                </h1>
+                    <div className="wrapper">
+                        <input type="radio" name="slider" className="radio1" defaultChecked={true} id="slider_1"/>
+                        <input type="radio" name="slider" className="radio2" id="slider_2"/>
+                        <input type="radio" name="slider" className="radio3" id="slider_3"/>
+                        <div className="pagination">
+                            <label htmlFor="slider_1" className="page1"></label>
+                            <label htmlFor="slider_2" className="page2"></label>
+                            <label htmlFor="slider_3" className="page3"></label>
+                        </div>
+                        <div className="slider slide1">
+                            <div>
+                                <h1 className="h1-mobile-BannerMonster">La mejor calidad para tus proyectos</h1>
                             </div>
-                            <div id="carousel__slide2" className="carouselItem">
-                                <h1 className="h1-mobile-BannerMonster white">
-                                    Miles de productos para tus proyectos
-                                </h1>
+                        </div>
+                        <div className="slider slide2">
+                            <div>
+                                <h1 className="h1-mobile-BannerMonster">Miles de productos para tus proyectos</h1>
                             </div>
-                            <div id="carousel__slide3" className="carouselItem">
-                                <h1 className="h1-mobile-BannerMonster black">
-                                    La mejor asesoría para tus proyectos
-                                </h1>
+                        </div>
+                        <div className="slider slide3">
+                            <div>
+                                <h1 className="h1-mobile-BannerMonster black">La mejor asesoría para tus proyectos</h1>
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                    
-                    <div className="carousel__navigation">
-                            <ol className="carousel__navigation-list">
-                                <li className="carousel__navigation-item">
-                                    <a href="#carousel__slide1" className="carousel__navigation-button">
-                                        <img src={ActiveEllipseTopCarousel} alt="" />
-                                    </a>
-                                </li>
-                                <li className="carousel__navigation-item">
-                                    <a href="#carousel__slide2" className="carousel__navigation-button">
-                                        <img src={EllipseTopCarousel} alt="" />
-                                    </a>
-                                </li>
-                                <li className="carousel__navigation-item">
-                                    <a href="#carousel__slide3" className="carousel__navigation-button">
-                                        <img src={EllipseTopCarousel} alt="" />
-                                    </a>
-                                </li>
-                            </ol>
-                    </div>   
                     
                 </div>
                 
