@@ -8,12 +8,12 @@ import checkOutIcon from '../../img/Group 1060.svg';
 import searchIcon from '../../img/Group 564.svg';
 import moreItemsNavBar from '../../img/Path 52.svg';
 import closeBadge from '../../img/Path 8671.svg';
+import downArrow from '../../img/downArrow.svg';
 import './HeaderMobilCemaco.css';
 
 class HeaderMobilCemaco extends React.Component{
     render(){
         return(
-            <>
             <div className="header">
                 <div className="rectangles">
                     <div className="rectangle rg-109">
@@ -47,17 +47,32 @@ class HeaderMobilCemaco extends React.Component{
                     </div>
                     <div className="navbar">
                             <li>
-                                <ul><a className="item firs-item" href="">Departamentos</a></ul>
+                                <ul>
+                                    <a className="item firs-item" href="">Departamentos <img className="downArrowIcon" src={downArrow} alt="" /></a>
+                                </ul>
                             </li>
                             <li>
-                                <ul><a className="item" href="">Promociones</a></ul>
+                                <ul>
+                                    <a className="item" href="">Promociones <img className="downArrowIcon" src={downArrow} alt="" /></a>
+                                </ul>
                             </li>
                             <li>
-                                <ul><a className="item" href="">Bodas</a></ul>
+                                <ul>
+                                    <a className="item" href="">Bodas <img className="downArrowIcon" src={downArrow} alt="" /></a>
+                                </ul>
                             </li>
-
+                            <li> 
+                                <ul>
+                                    <a className="item" href="">Tiendas <img className="downArrowIcon" src={downArrow} alt="" /></a>
+                                </ul>
+                            </li>
                             <li>
-                                <ul><a className="item" href=""><img src={moreItemsNavBar} alt="" /></a></ul>
+                                <ul>
+                                    <a className="item" href="">Puntos <img className="downArrowIcon" src={downArrow} alt="" /></a>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul><a className="item" href=""><span>Más</span><img src={moreItemsNavBar} alt="" /></a></ul>
                             </li>
                         </div>
                 </div>
@@ -66,7 +81,6 @@ class HeaderMobilCemaco extends React.Component{
                     <img src={closeBadge} alt="" />
                 </div>
             </div>
-            </>
         );
     }
 }

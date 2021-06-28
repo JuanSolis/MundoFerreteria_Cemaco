@@ -1,5 +1,4 @@
 .header{
-    height: 190px;
     width: 100%;
 }
 .rectangles{
@@ -8,41 +7,36 @@
 }
 
 .rectangle {
-    width: 125px;
-    height: 30px;
+    padding: 0px 24px;
     border-radius: 8px 8px 0px 0px;
-    box-shadow: 0px 0px 7px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.20);
 }
 .rectangles .rg-109{
     border-radius: 8px 8px 0px 0px;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 7px rgba(0,0,0,0.25);
-    padding: 6px 35px;
 }
 
 .rectangles .juguetonLogo{
-    width: 56px;
-    height: 19px;
+    width: 76.8px;
+    height: 100%;
 }
 
 .rectangles .rg-108{
     background-color: #101E8E;
-    padding: 7px 30px;
 }
 
 .rectangles .cemacoLogo{
-    width: 66px;
-    height: 15px;
+    width: 76.8px;
+    height: 100%;
 }
 
 .rectangles .rg-107{
     background-color: #FFFFFF;
-    padding: 9px 25px;
 }
 
-.rectangles .bebeJuguetonLogoHeader{
-    width: 74px;
-    height: 11px;
+.rectangles .bebeJuguetonLogo{
+    width: 76.8px;
+    height: 100%;
 }
 
 .header .hero {
@@ -129,6 +123,13 @@
     font-size: 12px;
 }
 
+.navbar a span{
+    display: none;
+}
+.navbar a .downArrowIcon{
+    display: none;
+ }
+
 .navbar .item {
     text-decoration: none;
     color: white;
@@ -151,6 +152,15 @@
 .navbar li:nth-child(3){
     margin-left: 14px;
 }
+
+.navbar li:nth-child(4){
+    display: none;
+}
+
+.navbar li:nth-child(5){
+    display: none;
+}
+
 
 .navbar li:last-child{
     margin-left: 41px;
@@ -181,3 +191,124 @@
     height: 8px;
 }
 
+/* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
+
+@media screen and (min-width:768px) {
+    .header .hero {
+        padding: 0 30px 11px 30px;
+    }
+
+    .header .badge{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .header .hero {
+        padding: 0 65px 11px 65px;
+    }
+    .topHero .cemacoLogo{
+        width: 157.91px;
+        height: 36px;
+        margin-top: 19px;
+    }
+
+    .heroIcons {
+        order: 3;
+        margin-top: 19px;
+    }
+    .heroIcons .icon{
+        margin-right: 27.9px;
+    }
+    
+    .heroIcons .userAccountIcon{
+        width: 36.8px;
+        height: 36.8px;
+    }
+    
+    .heroIcons .wishListIcon{
+        width: 40.28px;
+        height: 36px;
+    }
+    
+    .heroIcons .checkOutIcon{
+        width: 42.71px;
+        height: 36px;
+        margin-right: 0px;
+    }
+
+    :is(.searchInput, .emailInput){
+        width: 50%;
+        order: 2;
+        margin-top: 19px;
+    }
+    
+    :is(.searchInput, .emailInput) input{
+        height: 36px;
+        padding: 10px 35px 10px 17px;
+    }
+
+    .navbar{
+        margin-top: 15px;
+    }
+    
+    .navbar a{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .navbar a span{
+        display: block;
+    }
+    .navbar a .downArrowIcon{
+        display: block;
+        width: 12.49px;
+        height: 7.09px;
+        margin-left: 8px;
+    }
+
+
+    .navbar li:first-child {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    
+    .navbar li:nth-child(4){
+        display: block;
+        margin-left: 14px;
+    }
+
+    .navbar li:nth-child(5){
+        display: block;
+        margin-left: 14px;
+    }
+    
+    
+    .navbar li:last-child{
+        margin-left: 33px;
+    }
+
+    .navbar .item span{
+        margin-right: 6.8px;
+    }
+    
+    .header .badge{
+        height: 40px;
+        padding: 0 65px;
+    }
+    
+    .header .badge p{
+        font-size: 13px;
+    }
+    .header .badge a{
+        color: #FFFFFF;
+    }
+    
+    .header .badge img{
+        margin-left: auto;
+        width: 8px;
+        height: 8px;
+    }
+}
