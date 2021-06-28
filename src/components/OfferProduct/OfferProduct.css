@@ -36,3 +36,22 @@
     font-size: 14px;
     color: #000000;
 }
+
+
+ /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
+
+ @media screen and (min-width:768px) {
+    .wrapperOfferProduct{
+        margin-top: 20px;
+        width: 315px;
+    }
+    
+    .containerOfferProduct .imgOfferProduct {
+        height: 168px;
+        object-fit: contain;
+    }
+    
+  }
+  
+  
+    

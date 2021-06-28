@@ -1,8 +1,25 @@
 .serviceBannerContainer{
-    width: 100%;
+    width: 345px;
+    flex-grow: 1;
     height: 155px;
     margin-bottom: 13px;
+    background-repeat: no-repeat; 
     background-size: cover;
+}
+
+#topService1{
+    background-image: url("../../img/847556.png");
+
+}
+
+#topService2{
+    background-image: url("../../img/MaskGroup2214.png");
+
+}
+
+#topService3{
+    background-image: url("../../img/PreparaTuAuto1.png");
+ 
 }
 
 .serviceBannerContainer .banner{
@@ -25,3 +42,34 @@
     text-decoration: underline;
 }
 
+  /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
+@media screen and (min-width:768px) {
+    .serviceBannerContainer {
+        height: 289px;
+    }
+    .serviceBannerContainer:nth-child(2) {
+        margin-left: 22px;
+    }
+
+    .serviceBannerContainer .banner h2{
+        font-size: 29px;
+    }
+    
+    .serviceBannerContainer .banner h3{
+        font-size: 16px;
+    }
+
+    #topService1{
+        background-image: url("../../img/service1Extend.png");
+    
+    }
+    
+    #topService2{
+        background-image: url("../../img/service2Extend.png");
+    
+    }
+    
+    #topService3{
+        background-image: url("../../img/service3Extend.png");
+    }
+}

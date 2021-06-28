@@ -41,3 +41,26 @@
     color: #000000;
     margin-top: 8px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .departamentItemWrapper{
+        margin-top: 44px;
+        width: 175px;
+    }
+    
+    .imgContainer h2{
+        font-size: 29px;
+    }
+    
+    .departamentItemWrapper .departamentImg{
+        width: 100%;
+        height: 184px;
+        object-fit: contain;  
+    }
+
+    .departamentItemWrapper .departamentName{
+        font-size: 16px;
+        margin-top: 13px;
+    }
+}
