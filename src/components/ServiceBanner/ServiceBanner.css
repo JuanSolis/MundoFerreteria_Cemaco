@@ -1,25 +1,25 @@
-.serviceBanner{
+.serviceBannerContainer{
     width: 100%;
     height: 155px;
     margin-bottom: 13px;
     background-size: cover;
 }
 
-.serviceBanner .banner{
-    width: 100%;
+.serviceBannerContainer .banner{
+    width: 201px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 14px 0 0 16px;
+    text-align: left;
 }
 
-.serviceBanner .banner h2{
+.serviceBannerContainer .banner h2{
     font-weight: bold;
     font-size: 22px;
 }
 
-.serviceBanner .banner h3{
+.serviceBannerContainer .banner h3{
     font-weight: bold;
     font-size: 12px;
     text-decoration: underline;

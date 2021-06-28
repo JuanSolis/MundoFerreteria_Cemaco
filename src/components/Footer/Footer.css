@@ -1,0 +1,60 @@
+.footerContainer{
+    width: 100%;
+    color: #fff;
+}
+
+.footerContainer .elementsWrapper{
+    background-color: #101E8E;
+    padding: 0 15px 0 15px;
+}
+
+.footerContainer .footerItem{
+    width: 100%;
+    padding: 8.3px 9px 4.1px 9px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.3px solid #FFFFFF;
+}
+
+.footerItem .logoBlanco{
+    width: 49.76px;
+    height: 9.18px;
+}
+
+.contact{
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .element{
+    margin-bottom: 20.8px;
+    margin-top: 11.4px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .element h3{
+    margin-top: 4.2px;
+}
+
+.contact .element img{
+    width: 15.98px;
+    height: 15.98px;
+}
+
+.footerContainer .politics{
+    text-align: center;
+    color: #101E8E;
+    font-size: 8px;
+    padding: 7.4px 0px 17.9px 0px;
+}

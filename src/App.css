@@ -17,14 +17,22 @@
     padding: 0px 16px 13px 15px;
 }
 
+.bottomBanner{
+    padding: 0px 7px 0px 8px;
+}
+
 .Departaments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
     padding: 0 16px 50px     16px;
 }
 
 
-:is(.Departaments, .headerProductCatalog, .brandsContainer) .tittle {
+:is(.Departaments, .headerProductCatalog, .brandsContainer, .headerGroupTools) .tittle {
     font-size: 22px;
     font-weight: bold;
     color: #000000;
@@ -35,14 +43,14 @@
 }
 
 
-:is(.Departaments, .headerProductCatalog) .more{
+:is(.Departaments, .headerProductCatalog, .headerGroupTools) .more{
     margin-top: 7px;
     display: flex;
     align-items: center;
     font-size: 12px;
     font-weight: normal;
 }
-:is(.Departaments, .headerProductCatalog) .more img{
+:is(.Departaments, .headerProductCatalog, .headerGroupTools) .more img{
     margin-left: 6px;
     width: 5.41px;
     height: 9.53px;

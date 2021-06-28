@@ -87,14 +87,14 @@
     margin-right: 0px;
 }
 
-.searchInput{
+:is(.searchInput, .emailInput){
     position: relative;
     order: 3;
     width: 100%;
     margin-top: 11px;
 }
 
-.searchInput input{
+:is(.searchInput, .emailInput) input{
     width: 100%;
     height: 34px;
     background-color: #FFFFFF;
@@ -110,7 +110,11 @@
     color:#000000;
 }
 
-.searchInput img {
+.emailInput input::placeholder{
+    color:#76787A;
+}
+
+:is(.searchInput, .emailInput) img {
     position: absolute;
     right: 5px;
     top: 10%;

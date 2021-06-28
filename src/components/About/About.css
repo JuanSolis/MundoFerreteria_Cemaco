@@ -1,0 +1,71 @@
+.aboutContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #F1F1F1;
+    color: #101E8E;
+}
+
+.topAboutUs{
+    
+    border-bottom: 0.5px solid #B3B3B3;
+} 
+
+:is(.topAboutUs, .bottomAboutUs) .tittle{
+    font-size: 22px;
+    margin-top: 8.1px;
+}
+
+.topAboutUs img{
+    margin-top: 6.5px;
+    width: 74.86px;
+    height: 106.66px;
+}
+
+.topAboutUs .somos{
+    font-size: 16px;
+    margin-top: 17.9px;
+}
+
+.topAboutUs .paragraph{
+    width: 318px;
+    height: 43px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 7.8px;
+}
+
+.topAboutUs .moreContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18.8px;
+}
+.topAboutUs .more{
+    margin-top: 7px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topAboutUs .more img{
+    margin-left: 3.7px;
+    width: 9.53px;
+    height: 5.41px;
+    background-repeat: no-repeat;
+}
+
+.bottomAboutUs{
+    width: 100%;
+    padding: 0 15.3px 0 15.7px;
+    margin-bottom: 15px;
+}
+
+.bottomAboutUs p{
+    margin-top: 4.5px;
+    font-size: 14px;
+}

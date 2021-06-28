@@ -1,0 +1,19 @@
+.groupTools{
+    width: 100%;    
+    padding: 0 15.5px 0 15px;
+    margin-bottom: 26px;
+}
+
+.groupTools .headerGroupTools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    justify-content: center;
+    margin-top: 31px;
+  }
+
+  .groupTools .toolsWrapper{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }

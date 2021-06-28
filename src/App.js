@@ -10,6 +10,11 @@ import MoreIcon from './img/Icono-FlechaVermásTexto-Cemaco.svg';
 import DepartamentsList from './components/DepartamentsList/DepartamentsList';
 import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 import Brands from './components/Brands/Brands';
+import GroupTools from './components/GroupTools/GroupTools';
+import bottomBanner from './img/MaskGroup120.png';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -20,8 +25,8 @@ function App() {
       </div>
       <Offers/>
       <div className="TopServicesBanners">
-        <ServiceBanner colorFont="black" src={TopService1} service="Plomería"/>
-        <ServiceBanner colorFont="black" src={TopService2} service="Pinturas"/>
+        <ServiceBanner colorFont="black" src={TopService1} padding="14px 0 0 16px" service="Plomería"/>
+        <ServiceBanner colorFont="black" src={TopService2} padding="14px 0 0 16px" service="Pinturas"/>
       </div>
       <div className="Departaments">
         <h2 className="tittle">Navega por departamento</h2>
@@ -29,10 +34,16 @@ function App() {
         <DepartamentsList/>
       </div>
       <div className="serviceBanner">
-        <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
+        <ServiceBanner colorFont="#ffff" src={TopService3} padding="14px 0 0 16px" service="Autos"/>
       </div>
       <ProductCatalog/>
       <Brands/>
+      <GroupTools/>
+      <div className="bottomBanner">
+        <ServiceBanner colorFont="#ffff" src={bottomBanner} padding="14px 0 0 14px" service="Materiales de construcción y acabados "/>
+      </div>
+      <About/>
+      <Footer/>
     </div>
   );
 }
