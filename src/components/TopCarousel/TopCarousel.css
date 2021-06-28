@@ -81,16 +81,6 @@
     margin: 311px 0 24px 0;
   }
 
-
-  /* Slider Pagger arrow event */
-  .radio1:checked ~ .next .numb2, 
-  .radio2:checked ~ .next .numb3, 
-  .radio3:checked ~ .next .numb4, 
-  .radio2:checked ~ .previous .numb1, 
-  .radio3:checked ~ .previous .numb2{
-    display: block;
-    z-index: 1
-  }
   /* Slider Pagger event */
   .radio1:checked ~ .pagination .page1, 
   .radio2:checked ~ .pagination .page2, 

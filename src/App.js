@@ -27,8 +27,11 @@ function App() {
         <span className="more">Ver todos <img src={MoreIcon}/></span>
         <DepartamentsList/>
       </div>
-      <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
+      <div className="serviceBanner">
+        <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
+      </div>
       <ProductCatalog/>
+
     </div>
   );
 }

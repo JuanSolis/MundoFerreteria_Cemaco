@@ -1,13 +1,26 @@
 import React from 'react';
 import ProductItem from '../ProductItem/ProductItem';
+import MoreIcon from '../../img/Icono-FlechaVermásTexto-Cemaco.svg';
 import './ProductCatalog.css';
 
 class ProductCatalog extends React.Component{
     render(){
         return(
-            <div>
-                
-            </div>
+            <div className="containerProductCatalog">
+                <div className="headerProductCatalog">
+                    <h2 className="tittle">Organización ferretería</h2>
+                    <span className="more">Ver todos <img src={MoreIcon}/></span>
+                </div>
+                <div className="containerWrapper">
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                </div>
+        </div>
         );
     }
 }

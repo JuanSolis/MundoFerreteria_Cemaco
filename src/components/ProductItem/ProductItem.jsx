@@ -11,7 +11,9 @@ class ProductItem extends React.Component {
     render(){
         return(
             <div className="productItemContainer">
-                <img className="favIcon" src={favIcon} alt="" />
+                <div className="favIcon">
+                    <img src={favIcon} alt="" />
+                </div>
                 <div className="elements">
                     <img className="imgProduct" src={imgTestCarousel} alt="" />
                     <div className="colorsContainer">
