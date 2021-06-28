@@ -9,6 +9,7 @@ import TopService3 from './img/PreparaTuAuto1.png';
 import MoreIcon from './img/Icono-FlechaVermásTexto-Cemaco.svg';
 import DepartamentsList from './components/DepartamentsList/DepartamentsList';
 import ProductCatalog from './components/ProductCatalog/ProductCatalog';
+import Brands from './components/Brands/Brands';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
         <ServiceBanner colorFont="#ffff" src={TopService3} service="Autos"/>
       </div>
       <ProductCatalog/>
-
+      <Brands/>
     </div>
   );
 }

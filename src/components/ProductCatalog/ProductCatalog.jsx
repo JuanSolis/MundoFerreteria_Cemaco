@@ -20,6 +20,19 @@ class ProductCatalog extends React.Component{
                     <ProductItem/>
                     <ProductItem/>
                 </div>
+                <div className="headerProductCatalog">
+                    <h2 className="tittle">Esenciales ferretería </h2>
+                    <span className="more">Ver todos <img src={MoreIcon}/></span>
+                </div>
+                <div className="containerWrapper">
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                </div>
         </div>
         );
     }
