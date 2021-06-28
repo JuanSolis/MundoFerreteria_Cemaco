@@ -36,14 +36,22 @@
   /* each slide backgound color */  
   .slide1 {
     background-image: url("../../img/0TRUPER2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     left: 0;
   }
   .slide2 {
     background-image: url("../../img/Mask\ Group\ 2213.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
     left: 100%
   }
   .slide3 {
     background-image: url("../../img/Group\ 7914.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
     left: 200%
   }
 
@@ -100,4 +108,103 @@
     -webkit-transform: translateX(-200%);
     transform: translateX(-200%);
   }
- 
+
+
+  /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
+
+@media screen and (min-width:768px) {
+  .containerTopCarousel {
+    height: 541px; 
+  }
+  
+  /* Slider */
+  .slider {
+    padding: 243px 0 0 23px;
+    text-align: left;
+    animation-duration: 15s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+  }
+
+  .slider .tittleContainer{
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .slider .tittleContainer h1{
+    width: 560px;
+    font-size: 56px;
+  }
+
+  /* each slide backgound color */  
+  .slide1 {
+    background-image: url("../../img/TRUPER2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+  }
+  .slide2 {
+    background-image: url("../../img/Mask\ Group\ 2212.png");
+    left: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slide3 {
+    background-image: url("../../img/TopcslImg3.png");
+    left: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+
+  /* Slider inner slide effect */
+  .slider .h1-mobile-BannerMonster {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 32px;
+    opacity: 1;
+  }
+
+  .slider .black{
+    color: white;
+  }
+
+  .pagination{
+    display: none;
+  }
+  
+  
+  @keyframes slide {
+    0% {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+
+    }
+  
+    25% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+
+    }
+    50%{
+      -webkit-transform: translateX(-200%);
+      transform: translateX(-200%);
+
+    }
+
+    75% {
+      -webkit-transform: translateX(-200%);
+      transform: translateX(-200%);
+    }
+
+    100% {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+
+  }
+
+  
+}

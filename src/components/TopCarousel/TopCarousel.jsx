@@ -1,6 +1,4 @@
 import React from 'react';
-import EllipseTopCarousel from '../../img/Ellipse 25.svg';
-import ActiveEllipseTopCarousel from '../../img/Ellipse 23.svg';
 import './TopCarousel.css';
 
 class TopCarousel extends React.Component{
@@ -17,17 +15,17 @@ class TopCarousel extends React.Component{
                             <label htmlFor="slider_3" className="page3"></label>
                         </div>
                         <div className="slider slide1">
-                            <div>
+                            <div className="tittleContainer">
                                 <h1 className="h1-mobile-BannerMonster">La mejor calidad para tus proyectos</h1>
                             </div>
                         </div>
                         <div className="slider slide2">
-                            <div>
+                            <div className="tittleContainer">
                                 <h1 className="h1-mobile-BannerMonster">Miles de productos para tus proyectos</h1>
                             </div>
                         </div>
                         <div className="slider slide3">
-                            <div>
+                            <div className="tittleContainer">
                                 <h1 className="h1-mobile-BannerMonster black">La mejor asesoría para tus proyectos</h1>
                             </div>
                         </div>
