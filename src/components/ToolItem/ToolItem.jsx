@@ -9,7 +9,7 @@ class ToolItem extends React.Component{
                     <img src={this.props.src} alt="" />
                     <h2 style={{display: this.props.tittle == 'Ver más' ? 'block': 'none' }}>{this.props.tittle}</h2>
                 </div>
-                <h3>{this.props.tittle}</h3>
+                <h3><a href={this.props.href}>{this.props.tittle}</a></h3>
             </div>
         );
     }

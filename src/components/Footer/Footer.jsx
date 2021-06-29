@@ -24,11 +24,11 @@ class Footer extends React.Component{
                             <img className="moreItems" src={moreItemsNavBar} alt="" />
                             <div className="content">
                                 <ul>
-                                    <li><a href="">Instalaciones</a></li>
-                                    <li><a href="">Tiendas</a></li>
-                                    <li><a href="">Privilegios</a></li>
-                                    <li><a href="">Servicio a Empresas</a></li>
-                                    <li><a href="">Bodas</a></li>
+                                    <li><a href="https://www.cemaco.com/instalaciones/">Instalaciones</a></li>
+                                    <li><a href="https://www.cemaco.com/tiendas">Tiendas</a></li>
+                                    <li><a href="https://www.cemaco.com/privilegio">Privilegios</a></li>
+                                    <li><a href="https://www.cemaco.com/servicio-empresas">Servicio a Empresas</a></li>
+                                    <li><a href="https://www.cemaco.com/mesa-de-regalos/boda">Bodas</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -37,11 +37,11 @@ class Footer extends React.Component{
                             <img className="moreItems" src={moreItemsNavBar} alt="" />
                             <div className="content">
                                 <ul>
-                                    <li><a href="">Retira en tienda</a></li>
-                                    <li><a href="">Métodos de pago</a></li>
-                                    <li><a href="">Preguntas frecuentes</a></li>
-                                    <li><a href="">Privacidad y seguridad</a></li>
-                                    <li><a href="">Términos y condiciones</a></li>
+                                    <li><a href="https://www.cemaco.com/autoservicio">Retira en tienda</a></li>
+                                    <li><a href="https://www.cemaco.com/metodos-de-pago">Métodos de pago</a></li>
+                                    <li><a href="https://www.cemaco.com/preguntas-frecuentes">Preguntas frecuentes</a></li>
+                                    <li><a href="https://www.cemaco.com/privacidad-y-seguridad">Privacidad y seguridad</a></li>
+                                    <li><a href="https://www.cemaco.com/terminos-y-condiciones">Términos y condiciones</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -50,9 +50,9 @@ class Footer extends React.Component{
                             <img className="moreItems" src={moreItemsNavBar} alt="" />
                             <div className="content">
                                 <ul>
-                                    <li><a href="">Sostenibilidad</a></li>
-                                    <li><a href="">Garantía Total</a></li>
-                                    <li><a href="">Certificación Sistema B</a></li>
+                                    <li><a href="https://www.cemaco.com/sostenibilidad">Sostenibilidad</a></li>
+                                    <li><a href="https://www.cemaco.com/garantia-total">Garantía Total</a></li>
+                                    <li><a href="https://www.cemaco.com/sostenibilidad#empresaB">Certificación Sistema B</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -61,12 +61,12 @@ class Footer extends React.Component{
                         <img className="moreItems" src={moreItemsNavBar} alt="" />
                         <div className="content">
                             <ul className="content">
-                                <li><a href="">Únete a nuestro equipo</a></li>
-                                <li><a href="">Sobre nosotros</a></li>
-                                <li><a href="">Deseas ser proveedor</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Juguetón</a></li>
-                                <li><a href="">Bebé Juguetón</a></li>
+                                <li><a href="https://grupocemaco.com/">Únete a nuestro equipo</a></li>
+                                <li><a href="https://www.cemaco.com/sostenibilidad">Sobre nosotros</a></li>
+                                <li><a href="https://www.cemaco.com/proveedores">Deseas ser proveedor</a></li>
+                                <li><a href="https://www.cemaco.com/sostenibilidad">Blog</a></li>
+                                <li><a href="https://www.cemaco.com/jugueton">Juguetón</a></li>
+                                <li><a href="https://www.cemaco.com/bebe-jugueton">Bebé Juguetón</a></li>
                             </ul>
                         </div>
                         

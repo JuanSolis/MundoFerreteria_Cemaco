@@ -17,7 +17,7 @@ class About extends React.Component{
                         <h2 className="somos">Somos una Empresa B</h2>
                         <p className="paragraph">Estamos orgullosos de ser reconocidos por los más altos estándares a nivel mundial de sostenibilidad social y ambiental. </p>
                         <div className="moreContainer">
-                            <span className="more">Conoce más <img src={MoreIcon}/></span>
+                            <span className="more"><a href="https://www.cemaco.com/sostenibilidad#empresaB">Conoce más</a>  <img src={MoreIcon}/></span>
                         </div>
                     </div>
                 </div>

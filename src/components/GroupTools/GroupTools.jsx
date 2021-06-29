@@ -20,27 +20,27 @@ class GroupTools extends React.Component{
             <div className="groupTools">
                 <div className="headerGroupTools">
                     <h2 className="tittle">Herramientas</h2>
-                    <span className="more">Ver más <img src={MoreIcon}/></span>
+                    <span className="more"><a href="https://www.cemaco.com/c-herramientas">Ver más</a> <img src={MoreIcon}/></span>
                 </div>
                 <div className="toolsWrapper">
-                    <ToolItem src={tool1} tittle="Herramientas eléctricas" />
-                    <ToolItem src={tool2} tittle="Accesorios para herramientas eléctricas" />
-                    <ToolItem src={tool3} tittle="Herramientas manuales" />
-                    <ToolItem src={tool4} tittle="Seguridad industrial" />
-                    <ToolItem src={tool5} tittle="Compresores y herramientas neumáticas" />
-                    <ToolItem src={more} tittle="Ver más" />
+                    <ToolItem src={tool1} href="https://www.cemaco.com/c-herramientas" tittle="Herramientas eléctricas" />
+                    <ToolItem src={tool2} href="https://www.cemaco.com/c-herramientas" tittle="Accesorios para herramientas eléctricas" />
+                    <ToolItem src={tool3} href="https://www.cemaco.com/c-herramientas" tittle="Herramientas manuales" />
+                    <ToolItem src={tool4} href="https://www.cemaco.com/c-herramientas" tittle="Seguridad industrial" />
+                    <ToolItem src={tool5} href="https://www.cemaco.com/c-herramientas" tittle="Compresores y herramientas neumáticas" />
+                    <ToolItem src={more} href="https://www.cemaco.com/c-herramientas" tittle="Ver más" />
                 </div>
                 <div className="headerGroupTools">
                     <h2 className="tittle">Iluminación y eléctricos</h2>
-                    <span className="more">Ver más <img src={MoreIcon}/></span>
+                    <span className="more"><a href="https://www.cemaco.com/c-herramientas">Ver más</a> <img src={MoreIcon}/></span>
                 </div>
                 <div className="toolsWrapper">
-                    <ToolItem src={tool6} tittle="Accesorios para instalaciones eléctricas" />
-                    <ToolItem src={tool7} tittle="Bombillas, tubos y más" />
-                    <ToolItem src={tool8} tittle="Cables, tuberías y accesorios eléctricos" />
-                    <ToolItem src={tool9} tittle="Extensiones, ups y protectores de corriente" />
-                    <ToolItem src={tool10} tittle="Lámparas de interior y exterior" />
-                    <ToolItem src={more} tittle="Ver más" />
+                    <ToolItem src={tool6} href="https://www.cemaco.com/c-herramientas" tittle="Accesorios para instalaciones eléctricas" />
+                    <ToolItem src={tool7} href="https://www.cemaco.com/c-herramientas" tittle="Bombillas, tubos y más" />
+                    <ToolItem src={tool8} href="https://www.cemaco.com/c-herramientas" tittle="Cables, tuberías y accesorios eléctricos" />
+                    <ToolItem src={tool9} href="https://www.cemaco.com/c-herramientas" tittle="Extensiones, ups y protectores de corriente" />
+                    <ToolItem src={tool10} href="https://www.cemaco.com/c-herramientas" tittle="Lámparas de interior y exterior" />
+                    <ToolItem src={more} href="https://www.cemaco.com/c-herramientas" tittle="Ver más" />
                 </div>
             </div>
         );

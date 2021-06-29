@@ -51,7 +51,15 @@
     display: flex;
     font-size: 14px;
     font-weight: bold;
+
 }
+
+.topAboutUs .more a{
+   text-decoration: none;
+   color: #101E8E;
+
+}
+
 .topAboutUs .more img{
     margin-left: 3.7px;
     width: 9.53px;

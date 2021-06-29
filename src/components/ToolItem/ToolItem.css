@@ -29,6 +29,12 @@
     height: 100%;
 }
 
+.toolItemContainer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
 .toolItemContainer h3{
     margin-top: 10px;
     font-size: 12px;
