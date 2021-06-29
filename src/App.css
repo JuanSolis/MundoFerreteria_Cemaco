@@ -88,9 +88,19 @@
         color: #000000;
     }
 
+    :is(.Departaments, .headerProductCatalog, .brandsContainer, .headerGroupTools) .tittle a {
+        color: #000000;
+        text-decoration: none;
+    }
+
     :is(.Departaments, .headerProductCatalog, .headerGroupTools) .more{
         margin-top: 9px;
         font-size: 16px;
+    }
+
+    :is(.Departaments, .headerProductCatalog, .headerGroupTools) .more a{
+        color: #000000;
+        text-decoration: none;
     }
     :is(.Departaments, .headerProductCatalog, .headerGroupTools) .more img{
         margin-left: 3px;

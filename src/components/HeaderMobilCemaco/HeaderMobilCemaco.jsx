@@ -17,13 +17,15 @@ class HeaderMobilCemaco extends React.Component{
             <div className="header">
                 <div className="rectangles">
                     <div className="rectangle rg-109">
-                        <img className="juguetonLogo" src={JuguetonLogoHeader} alt="" />
+                        <a href="https://www.cemaco.com/jugueton"><img href="https://www.cemaco.com/jugueton" className="juguetonLogo" src={JuguetonLogoHeader} alt="" /></a>
                     </div>
                     <div className="rectangle rg-108">
-                        <img className="cemacoLogo" src={CemacoLogoHeader} alt="" />
+                        <a href="https://www.cemaco.com/"><img className="cemacoLogo" src={CemacoLogoHeader} alt="" /></a>
                     </div>
                     <div className="rectangle rg-107">
-                        <img className="bebeJuguetonLogo" src={bebeJuguetonLogoHeader} alt="" />
+                        <a href="https://www.cemaco.com/bebe-jugueton">
+                            <img  className="bebeJuguetonLogo" src={bebeJuguetonLogoHeader} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className="hero">
@@ -34,13 +36,13 @@ class HeaderMobilCemaco extends React.Component{
                             <img src={searchIcon}  alt="" />
                         </div>
                         <div className="heroIcons">
-                            <a href="">
+                            <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount#/orders">
                                 <img className="icon userAccountIcon" src={userAccountIcon} alt="" />
                             </a>
-                            <a href="">
+                            <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount%2fwishlist">
                                 <img className="icon wishListIcon" src={wishListIcon} alt="" />
                             </a>
-                            <a href="">
+                            <a href="https://www.cemaco.com/checkout">
                                 <img className="icon checkOutIcon" src={checkOutIcon} alt="" />
                             </a>
                         </div>
@@ -77,7 +79,7 @@ class HeaderMobilCemaco extends React.Component{
                         </div>
                 </div>
                 <div className="badge">
-                    <p>Envió gratis en tu primera comprar, <a href="">entérate aquí</a></p>
+                    <p>Envió gratis en tu primera comprar, <a href="https://www.cemaco.com/activacion">entérate aquí</a></p>
                     <img src={closeBadge} alt="" />
                 </div>
             </div>

@@ -57,7 +57,7 @@ class ProductCatalog extends React.Component{
            
             <div className="containerProductCatalog">
                 <div className="headerProductCatalog">
-                    <h2 className="tittle">Barrenos Y Atornilladores</h2>
+                    <h2 className="tittle"><a href="https://www.cemaco.com/c-herramientas/herramientas-electricas/barrenos-y-atornilladores">Barrenos Y Atornilladores</a></h2>
                     <span className="more">Ver todos <img src={MoreIcon}/></span>
                 </div>
                 <div className="containerWrapper">

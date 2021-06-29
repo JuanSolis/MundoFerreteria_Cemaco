@@ -42,6 +42,15 @@
     margin-top: 8px;
 }
 
+.departamentItemWrapper .departamentName a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#VerMas{
+    display: block;
+}
+
 
 @media screen and (min-width: 768px) {
     .departamentItemWrapper{
@@ -62,5 +71,9 @@
     .departamentItemWrapper .departamentName{
         font-size: 16px;
         margin-top: 13px;
+    }
+
+    #VerMas{
+        display: none;
     }
 }

@@ -20,23 +20,23 @@ function App() {
       </div>
       <Offers/>
       <div className="TopServicesBanners">
-        <ServiceBanner id="topService1" colorFont="black" service="Plomería"/>
-        <ServiceBanner id="topService2" colorFont="black"  service="Pinturas"/>
+        <ServiceBanner id="topService1" href="https://www.cemaco.com/c-plomeria" colorFont="black" service="Plomería"/>
+        <ServiceBanner id="topService2" href="https://www.cemaco.com/c-pinturas" colorFont="black"  service="Pinturas"/>
       </div>
       
       <div className="Departaments">
         <h2 className="tittle">Navega por departamento</h2>
-        <span className="more">Ver todos <img src={MoreIcon}/></span>
+        <span className="more"><a href="https://www.cemaco.com/c-pinturas">Ver todos</a><img src={MoreIcon}/></span>
         <DepartamentsList/>
       </div>
       <div className="serviceBanner">
-        <ServiceBanner id="topService3" colorFont="#ffff"   service="Autos"/>
+        <ServiceBanner id="topService3" href="https://www.cemaco.com/c-autos" colorFont="#ffff"   service="Autos"/>
       </div>
       <ProductCatalog/>
       <Brands/>
       <GroupTools/>
       <div className="bottomBanner">
-        <ServiceBanner id="topService4" colorFont="#ffff"  service="Materiales de construcción y acabados "/>
+        <ServiceBanner id="topService4" href="https://www.cemaco.com/c-materiales-de-construccion" colorFont="#ffff"  service="Materiales de construcción y acabados "/>
       </div>
       <About/>
       <Footer/>
