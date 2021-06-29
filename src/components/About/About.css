@@ -60,7 +60,7 @@
 }
 
 .bottomAboutUs{
-    width: 100%;
+    width: 350px;
     padding: 0 15.3px 0 15.7px;
     margin-bottom: 15px;
 }
@@ -68,4 +68,90 @@
 .bottomAboutUs p{
     margin-top: 4.5px;
     font-size: 14px;
+}
+
+.bottomAboutUs .emailInput{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .aboutContainer{
+        width: 100%;
+        height: 304px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .aboutContainer .topAboutUs{
+        padding: 0 65px;
+        justify-content: space-between;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        border-bottom: none;
+        border-right: 0.5px solid #B3B3B3;
+        margin-right: 50px;
+    } 
+    
+    :is(.topAboutUs, .bottomAboutUs) .tittle{
+        font-size: 25px;
+    }
+    
+    .topAboutUs img{
+        width: 74.86px;
+        height: 106.66px;
+    }
+    .logoEmpresa{
+        margin-right: 50px;
+    }
+    
+    .topAboutUs .somos{
+        font-size: 16px;
+        text-align: left;
+    }
+    
+    .topAboutUs .paragraph{
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 8px;
+    }
+    
+    .topAboutUs .moreContainer{
+        margin-bottom: 2px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+    }
+    .topAboutUs .more{
+        margin-top: 12px;
+        display: flex;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .topAboutUs .more img{
+        margin-left: 3.7px;
+        width: 14.08px;
+        height: 8px;
+        background-repeat: no-repeat;
+    }
+    
+    .bottomAboutUs{
+        width: 50%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-start;
+        justify-content: flex-start;
+    }
+    
+    .bottomAboutUs p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
 }

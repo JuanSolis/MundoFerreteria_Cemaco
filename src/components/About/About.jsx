@@ -9,12 +9,16 @@ class About extends React.Component{
         return(
             <div className="aboutContainer">
                 <div className="topAboutUs">
-                    <h2 className="tittle">Empresa</h2>
-                    <img src={aboutLogo} alt="" />
-                    <h2 className="somos">Somos una Empresa B</h2>
-                    <p className="paragraph">Estamos orgullosos de ser reconocidos por los más altos estándares a nivel mundial de sostenibilidad social y ambiental. </p>
-                    <div className="moreContainer">
-                        <span className="more">Conoce más <img src={MoreIcon}/></span>
+                    <div className="logoEmpresa">
+                        <h2 className="tittle">Empresa</h2>
+                        <img className="logoB" src={aboutLogo} alt="" />
+                    </div>
+                    <div>
+                        <h2 className="somos">Somos una Empresa B</h2>
+                        <p className="paragraph">Estamos orgullosos de ser reconocidos por los más altos estándares a nivel mundial de sostenibilidad social y ambiental. </p>
+                        <div className="moreContainer">
+                            <span className="more">Conoce más <img src={MoreIcon}/></span>
+                        </div>
                     </div>
                 </div>
                 <div className="bottomAboutUs">
