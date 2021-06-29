@@ -35,3 +35,25 @@
     font-weight: normal;
     color: #000000;
 }
+
+
+@media screen and (min-width: 768px) {
+    .toolItemContainer{
+        width: 183px;
+        margin-top: 22px;
+    }
+    
+    .toolItemContainer .imgWrapper{
+        width: 100%;
+        height: 181px;
+    }
+    
+    .toolItemContainer h3{
+        margin-top: 13px;
+        font-size: 16px;
+    }
+
+    .toolItemContainer:last-child{
+        display: none;
+    }
+}

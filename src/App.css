@@ -20,6 +20,7 @@
 }
 
 .bottomBanner{
+    display: flex;
     padding: 0px 7px 0px 8px;
 }
 
@@ -97,6 +98,11 @@
         height: 9.53px;
         background-repeat: no-repeat;
     }
+
+    .bottomBanner{
+        padding: 0px 30px 0px 30px;
+    }
+    
     
 }
 
@@ -116,6 +122,10 @@
 
     .Departaments{
         padding: 0 64px 50px 64px;
+    }
+
+    .bottomBanner{
+        padding: 0px 64px 0px 64px;
     }
 }
 

@@ -8,7 +8,6 @@ import DepartamentsList from './components/DepartamentsList/DepartamentsList';
 import ProductCatalog from './components/ProductCatalog/ProductCatalog';
 import Brands from './components/Brands/Brands';
 import GroupTools from './components/GroupTools/GroupTools';
-import bottomBanner from './img/MaskGroup120.png';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 
@@ -21,8 +20,8 @@ function App() {
       </div>
       <Offers/>
       <div className="TopServicesBanners">
-        <ServiceBanner id="topService1" colorFont="black" padding="14px 0 0 16px" service="Plomería"/>
-        <ServiceBanner id="topService2" colorFont="black" padding="14px 0 0 16px" service="Pinturas"/>
+        <ServiceBanner id="topService1" colorFont="black" service="Plomería"/>
+        <ServiceBanner id="topService2" colorFont="black"  service="Pinturas"/>
       </div>
       
       <div className="Departaments">
@@ -31,13 +30,13 @@ function App() {
         <DepartamentsList/>
       </div>
       <div className="serviceBanner">
-        <ServiceBanner id="topService3" colorFont="#ffff"  padding="14px 0 0 16px" service="Autos"/>
+        <ServiceBanner id="topService3" colorFont="#ffff"   service="Autos"/>
       </div>
       <ProductCatalog/>
       <Brands/>
       <GroupTools/>
       <div className="bottomBanner">
-        <ServiceBanner colorFont="#ffff" src={bottomBanner} padding="14px 0 0 14px" service="Materiales de construcción y acabados "/>
+        <ServiceBanner id="topService4" colorFont="#ffff"  service="Materiales de construcción y acabados "/>
       </div>
       <About/>
       <Footer/>
