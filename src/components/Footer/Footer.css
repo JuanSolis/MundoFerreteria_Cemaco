@@ -19,6 +19,11 @@
     border-bottom: 0.3px solid #FFFFFF;
 }
 
+.footerItem .content{
+    display: none;
+    color: white;
+}
+
 .footerItem .logoBlanco{
     width: 49.76px;
     height: 9.18px;
@@ -57,4 +62,152 @@
     color: #101E8E;
     font-size: 8px;
     padding: 7.4px 0px 17.9px 0px;
+}
+
+.contact .titleContacto{
+    display: none;
+}
+
+
+.contact .socialNetworks{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .footerContainer .elementsWrapper {
+        padding: 0px 30px;
+        height: 324px;
+    }
+    .footerContainer .footerItem{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        justify-content: center;
+        border-bottom:none;
+    }
+
+    .footerItem h3 {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 9px;
+    }
+
+    .footerItem .content li {
+        margin-bottom: 7px;
+    }
+    .footerItem .content a {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .wrapperItems{
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .footerItem .content{
+        display: block;
+    }
+
+    .footerItem .content ul{
+        list-style: none;
+     
+    }
+
+    .footerItem .moreItems{
+        display: none;
+    }
+
+    .footerItem .content a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footerItem .logoBlanco{
+        width: 78.08px;
+        height: 14.4px;
+    }
+    
+    .contact{
+        height: 100%;
+        padding: 0 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .contact .titleContacto{
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 9px;
+    }
+    
+    .contact .element{
+        margin-bottom: 7px;
+        margin-top: 0px;
+        font-size: 13px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contact .element h3{
+        margin-top: 4.2px;
+    }
+    
+    .contact .element img{
+        width: 14.05px;
+        height: 14.05px;
+        margin-right: 7.8px;
+    }
+
+    .elementsWrapper .socialNetworks{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25.3px;
+    }
+
+    .elementsWrapper .socialNetworks .fb{
+        width: 8.58px;
+        height: 18.2px;
+    }
+
+    .elementsWrapper .socialNetworks .ig{
+        width:19.1px;
+        height: 19.1px;
+    }
+
+    .elementsWrapper .socialNetworks .yb{
+        width:22.75px;
+        height: 16.04px;
+    }
+
+    .elementsWrapper .socialNetworks .tw{
+        width:20.52px;
+        height: 15.77px;
+    }
+    
+    .elementsWrapper .socialNetworks .pt{
+        width:18.04px;
+        height: 18.04px;
+    }
+    
+    .footerContainer .politics{
+        text-align: center;
+        color: #101E8E;
+        font-size: 8px;
+        padding: 7.4px 0px 17.9px 0px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footerContainer .elementsWrapper {
+        padding: 0px 64px;
+    }
 }
