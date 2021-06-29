@@ -15,20 +15,20 @@ class ProductItem extends React.Component {
                     <img src={favIcon} alt="" />
                 </div>
                 <div className="elements">
-                    <img className="imgProduct" src={imgTestCarousel} alt="" />
+                    <img className="imgProduct" src={this.props.img} alt="" />
                     <div className="colorsContainer">
                         <img className="leftArrow" src={arrowColors2} alt="" />
                         <img className="colors" src={ColorsElip} alt="" />
                         <img className="rightArrow" src={arrowColors} alt="" />
                     </div>
                     <h3 className="util">Black &amp; Decker</h3>
-                    <h3 className="productDetail">Licuadora vaso plastico 2 velocidades</h3>
+                    <h3 className="productDetail"><a href={this.props.href} target="_blank">{this.props.details}</a></h3>
                     <img className="stars" src={starsIcon} alt="" />
                     <div className="productFooterWrapper">
                         <div className="cost">
                             <div className="productPriceContainer">
                                 <p>Desde </p>
-                                <p className="productPrice">Q279.99</p>
+                                <p className="productPrice">{this.props.price}</p>
                             </div>
                             <p className="productDelivery">Envío gratis</p>
                         </div>
