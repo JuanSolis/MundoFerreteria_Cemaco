@@ -10,17 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-}
-
-.containerOfferProduct a{
-    width: 169px;
+    text-align: center;
     height: 107px;
-}
-.containerOfferProduct a img {
-    width: 100%;
-    height:100%;
-    background-size: contain;
 }
 
 .containerDetailsOfferProduct{
@@ -53,9 +44,8 @@
         width: 315px;
     }
 
-    .containerOfferProduct a{
-        width: 315px;
-        height: 168px;
+    .containerOfferProduct{
+        height: 200px;
     }
     
   }
