@@ -1,7 +1,14 @@
 .departamentListContainer{
     width: 100%;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 9px;
+    justify-content: flex-start;
+    gap:9px;
+}
+
+@media screen and (min-width: 768px) {
+    .departamentListContainer{
+        gap:48px;
+    }
 }

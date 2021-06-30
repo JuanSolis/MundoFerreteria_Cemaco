@@ -2,11 +2,11 @@
     position: relative;
     margin-top: 29px;
     width: 108px;
+    max-width: 175px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex-grow: 0.5;
 }
 
 .imgContainer{
@@ -56,6 +56,7 @@
     .departamentItemWrapper{
         margin-top: 44px;
         width: 175px;
+        max-width: 250px;
     }
     
     .imgContainer h2{
