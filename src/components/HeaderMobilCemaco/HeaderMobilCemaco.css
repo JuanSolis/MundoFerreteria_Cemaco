@@ -115,12 +115,12 @@
     cursor: pointer;
 }
 
-.navbar{
+.navbar ul{
+    font-size: 12px;
     margin-top: 11px;
     list-style: none;
     display: flex;
     align-items: center;
-    font-size: 12px;
 }
 
 .navbar a span{
@@ -133,6 +133,7 @@
 .navbar .item {
     text-decoration: none;
     color: white;
+    font-size: 12px;
 }
 
 .navbar .item  img{
@@ -140,9 +141,12 @@
     height: 7px;
 }
 
+.navbar .first-item{
+    font-size: 12px;
+}
+
 .navbar li:first-child {
     font-weight: bold;
-    font-size: 12px;
 }
 
 .navbar li:nth-child(2){
@@ -254,6 +258,14 @@
         margin-top: 15px;
     }
     
+    .navbar .item {
+        font-size: 14px;
+    }
+
+    .navbar .first-item{
+        font-size: 16px;
+    }
+    
     .navbar a{
        display: flex;
        justify-content: center;
@@ -273,7 +285,6 @@
 
     .navbar li:first-child {
         font-weight: bold;
-        font-size: 16px;
     }
     
     

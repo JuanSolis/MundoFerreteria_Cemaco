@@ -3,7 +3,7 @@ import JuguetonLogoHeader from '../../img/JUGUETON SIN SOMBRA.svg';
 import CemacoLogoHeader from '../../img/LOGO CEMACO HORIZONTAL  BLANCO.svg';
 import bebeJuguetonLogoHeader from '../../img/Group 1051.svg';
 import userAccountIcon from '../../img/Path 8954.svg';
-import wishListIcon from '../../img/Path 8953.svg';
+import wishulstIcon from '../../img/Path 8953.svg';
 import checkOutIcon from '../../img/Group 1060.svg';
 import searchIcon from '../../img/Group 564.svg';
 import moreItemsNavBar from '../../img/Path 52.svg';
@@ -39,44 +39,39 @@ class HeaderMobilCemaco extends React.Component{
                             <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount#/orders">
                                 <img className="icon userAccountIcon" src={userAccountIcon} alt="" />
                             </a>
-                            <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount%2fwishlist">
-                                <img className="icon wishListIcon" src={wishListIcon} alt="" />
+                            <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount%2fwishulst">
+                                <img className="icon wishulstIcon" src={wishulstIcon} alt="" />
                             </a>
                             <a href="https://www.cemaco.com/checkout">
                                 <img className="icon checkOutIcon" src={checkOutIcon} alt="" />
                             </a>
                         </div>
                     </div>
-                    <div className="navbar">
+                    <nav className="navbar">
+                        <ul>
                             <li>
-                                <ul>
-                                    <a className="item firs-item" href="">Departamentos <img className="downArrowIcon" src={downArrow} alt="" /></a>
-                                </ul>
+                                <a className="item first-item" href="">Departamentos <img className="downArrowIcon" src={downArrow} alt="" /></a>
                             </li>
+
                             <li>
-                                <ul>
-                                    <a className="item" href="">Promociones <img className="downArrowIcon" src={downArrow} alt="" /></a>
-                                </ul>
+                                <a className="item" href="">Promociones <img className="downArrowIcon" src={downArrow} alt="" /></a>
                             </li>
+
                             <li>
-                                <ul>
-                                    <a className="item" href="">Bodas <img className="downArrowIcon" src={downArrow} alt="" /></a>
-                                </ul>
+                                <a className="item" href="">Bodas <img className="downArrowIcon" src={downArrow} alt="" /></a>
                             </li>
-                            <li> 
-                                <ul>
-                                    <a className="item" href="">Tiendas <img className="downArrowIcon" src={downArrow} alt="" /></a>
-                                </ul>
-                            </li>
+
                             <li>
-                                <ul>
-                                    <a className="item" href="">Puntos <img className="downArrowIcon" src={downArrow} alt="" /></a>
-                                </ul>
+                                <a className="item" href="">Tiendas <img className="downArrowIcon" src={downArrow} alt="" /></a>
                             </li>
+
                             <li>
-                                <ul><a className="item" href=""><span>Más</span><img src={moreItemsNavBar} alt="" /></a></ul>
+                                <a className="item" href="">Puntos <img className="downArrowIcon" src={downArrow} alt="" /></a>
                             </li>
-                        </div>
+
+                            <li><a className="item" href=""><span>Más</span><img src={moreItemsNavBar} alt="" /></a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div className="badge">
                     <p>Envío gratis en tu primera compra, <a href="https://www.cemaco.com/activacion">entérate aquí</a></p>

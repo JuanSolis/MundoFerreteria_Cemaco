@@ -2,7 +2,6 @@
     width: 345px;
     flex-grow: 1;
     height: 155px;
-    margin-bottom: 13px;
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -55,9 +54,6 @@
 @media screen and (min-width:768px) {
     .serviceBannerContainer {
         height: 289px;
-    }
-    .serviceBannerContainer:nth-child(2) {
-        margin-left: 22px;
     }
 
     .serviceBannerContainer .banner{
