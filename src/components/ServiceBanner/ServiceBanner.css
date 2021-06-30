@@ -7,22 +7,21 @@
 }
 
 #topService1{
-    background-image: url("../../img/847556.png");
+    background-image: url("../../img/service1Extend.png");
 
 }
 
 #topService2{
-    background-image: url("../../img/MaskGroup2214.png");
+    background-image: url("../../img/service2Extend.png");
 
 }
 
 #topService3{
-    background-image: url("../../img/PreparaTuAuto1.png");
- 
+    background-image: url("../../img/service3Extend.png");
 }
 
 #topService4{
-    background-image: url("../../img/MaskGroup120.png");
+    background-image: url("../../img/service4Extend.png");
 }
 
 .serviceBannerContainer .banner{
@@ -68,23 +67,5 @@
     .serviceBannerContainer .banner h3{
         margin-top: 9px;
         font-size: 16px;
-    }
-
-    #topService1{
-        background-image: url("../../img/service1Extend.png");
-    
-    }
-    
-    #topService2{
-        background-image: url("../../img/service2Extend.png");
-    
-    }
-    
-    #topService3{
-        background-image: url("../../img/service3Extend.png");
-    }
-
-    #topService4{
-        background-image: url("../../img/service4Extend.png");
     }
 }

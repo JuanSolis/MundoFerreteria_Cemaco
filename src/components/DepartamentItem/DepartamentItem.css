@@ -1,18 +1,23 @@
 .departamentItemWrapper{
     position: relative;
     margin-top: 29px;
-    width: 109px;
+    width: 108px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .imgContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100%;
+    height: 108px;
 }
 
-.imgContainer h2{
+.imgContainer .verMas{
     font-size: 16px;
     font-weight: bold;
     width: 100%;
@@ -25,13 +30,7 @@
 
 .departamentItemWrapper .departamentImg{
     width: 100%;
-    height: 108px;
-    object-fit: contain;
-}
-
-.departamentItemWrapper .departamentImg::before{
-    width: 100%;
-    height: 108px;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -53,6 +52,7 @@
 
 
 @media screen and (min-width: 768px) {
+    
     .departamentItemWrapper{
         margin-top: 44px;
         width: 175px;
@@ -62,10 +62,9 @@
         font-size: 29px;
     }
     
-    .departamentItemWrapper .departamentImg{
+    .imgContainer{
         width: 100%;
-        height: 184px;
-        object-fit: contain;  
+        height: 175px;
     }
 
     .departamentItemWrapper .departamentName{
