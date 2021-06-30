@@ -60,7 +60,16 @@
     background-repeat: no-repeat;
 }
 
+:is(.Departaments, .headerProductCatalog, .headerGroupTools) .more a{
+    color: #000000;
+    text-decoration: none;
+}
 
+
+:is(.Departaments, .headerProductCatalog, .brandsContainer, .headerGroupTools) .tittle a {
+    color: #000000;
+    text-decoration: none;
+}
 
 /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
 

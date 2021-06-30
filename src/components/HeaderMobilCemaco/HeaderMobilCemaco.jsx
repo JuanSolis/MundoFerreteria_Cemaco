@@ -79,8 +79,8 @@ class HeaderMobilCemaco extends React.Component{
                         </div>
                 </div>
                 <div className="badge">
-                    <p>Envió gratis en tu primera comprar, <a href="https://www.cemaco.com/activacion">entérate aquí</a></p>
-                    <img src={closeBadge} alt="" />
+                    <p>Envío gratis en tu primera compra, <a href="https://www.cemaco.com/activacion">entérate aquí</a></p>
+                    <img src={closeBadge} className="closeBtn" alt="" />
                 </div>
             </div>
         );

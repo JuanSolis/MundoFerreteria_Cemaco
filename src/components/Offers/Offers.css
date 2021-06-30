@@ -1,8 +1,9 @@
 .offersContainer{
     padding: 0px 16px 25px 16px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
 }
 
   /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
@@ -10,6 +11,7 @@
   @media screen and (min-width:768px) {
     .offersContainer {
         padding: 0px 30px 25px 30px;
+        gap: 17px;
     }
   }
   

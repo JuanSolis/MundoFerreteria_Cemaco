@@ -6,8 +6,8 @@ class OfferProduct extends React.Component{
         return(
             <div className="wrapperOfferProduct">
                 <div className="containerOfferProduct" style={{backgroundColor: this.props.color}}>
-                    <a href="https://www.cemaco.com/bueno14">
-                        <img src={this.props.src} className="imgOfferProduct" style={{padding: this.props.padding}}/>
+                    <a href="https://www.cemaco.com/bueno14"  style={{padding: this.props.padding}}>
+                        <img src={this.props.src} className="imgOfferProduct"/>
                     </a>
                 </div>
                 <div className="containerDetailsOfferProduct">

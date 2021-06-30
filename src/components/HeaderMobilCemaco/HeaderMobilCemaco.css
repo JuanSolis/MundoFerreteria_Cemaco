@@ -185,10 +185,12 @@
     color: #FFFFFF;
 }
 
-.header .badge img{
+.header .badge .closeBtn {
     margin-left: auto;
-    width: 8px;
-    height: 8px;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
 }
 
 /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
@@ -306,9 +308,8 @@
         color: #FFFFFF;
     }
     
-    .header .badge img{
-        margin-left: auto;
-        width: 8px;
-        height: 8px;
+    .header .badge .closeBtn{
+        width: 20px;
+        height: 20px;
     }
 }
