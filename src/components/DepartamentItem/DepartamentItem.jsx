@@ -8,7 +8,6 @@ class DepartamentItem extends React.Component{
             element.classList.remove("hidden");
             element.classList.add("block");
         })
-        
 
         const moreBtn = document.querySelector(".departamentListContainer #VerMas");
         moreBtn.classList.remove("block");

@@ -1,9 +1,9 @@
 import React from 'react';
-import Brand1 from '../../img/Group 1181.png';
-import Brand2 from '../../img/Group 1186.png';
-import Brand3 from '../../img/Group 1187.png';
-import Brand4 from '../../img/Group 1192.png';
-import Brand5 from '../../img/Group 1176.png';
+import Brand1 from '../../img/Group 1159@2x.png';
+import Brand2 from '../../img/Group 1164@2x.png';
+import Brand3 from '../../img/Group 1165@2x.png';
+import Brand4 from '../../img/Group 1170@2x.png';
+import Brand5 from '../../img/Group 1154@2x.png';
 
 import './Brands.css';
 
