@@ -18,24 +18,31 @@ import DepartamentImg14 from '../../img/GettyImages-483451207.png';
 import DepartamentImg15 from '../../img/986391_B_A.png';
 
 class DepartamentsList extends React.Component{
+    moreDepartaments(){
+        const moreDepartaments = document.querySelector(".departamentListContainer .moreDepartaments");
+        moreDepartaments.classList.add("hidden");
+
+    }
     render(){
+        
         return(
             <div className="departamentListContainer">
-                <DepartamentItem src={DepartamentImg1} href="https://www.cemaco.com/c-herramientas" name="Herramientas"/>
-                <DepartamentItem src={DepartamentImg2} href="https://www.cemaco.com/c-acabados" name="Seguridad industrial"/>
-                <DepartamentItem src={DepartamentImg3} href="https://www.cemaco.com/c-pinturas" name="Pinturas"/>
-                <DepartamentItem src={DepartamentImg4} href="https://www.cemaco.com/c-materiales-de-construccion" name="Materiales de construcción"/>
-                <DepartamentItem src={DepartamentImg5} href="https://www.cemaco.com/c-acabados" name="Acabados"/>
-                <DepartamentItem src={DepartamentImg6} href="https://www.cemaco.com/c-iluminacion" name="Iluminación y eléctricos"/>
-                <DepartamentItem src={DepartamentImg7} href="https://www.cemaco.com/c-ferreteria" name="Ferretería"/>
-                <DepartamentItem src={DepartamentImg8} href="https://www.cemaco.com/c-organizacion" name="Organización"/>
-                <DepartamentItem src={DepartamentImg9} href="https://www.cemaco.com/c-plomeria" name="Plomería"/>
+                <DepartamentItem src={DepartamentImg1}  href="https://www.cemaco.com/c-herramientas" name="Herramientas"/>
+                <DepartamentItem src={DepartamentImg2}  href="https://www.cemaco.com/c-acabados" name="Seguridad industrial"/>
+                <DepartamentItem src={DepartamentImg3}  href="https://www.cemaco.com/c-pinturas" name="Pinturas"/>
+                <DepartamentItem src={DepartamentImg4}  href="https://www.cemaco.com/c-materiales-de-construccion" name="Materiales de construcción"/>
+                <DepartamentItem src={DepartamentImg5}  href="https://www.cemaco.com/c-acabados" name="Acabados"/>
+                <DepartamentItem src={DepartamentImg6}  href="https://www.cemaco.com/c-iluminacion" name="Iluminación y eléctricos"/>
+                <DepartamentItem src={DepartamentImg7}  href="https://www.cemaco.com/c-ferreteria" name="Ferretería"/>
+                <DepartamentItem src={DepartamentImg8}  href="https://www.cemaco.com/c-organizacion" name="Organización"/>
+                <DepartamentItem src={DepartamentImg9}  href="https://www.cemaco.com/c-plomeria" name="Plomería"/>
                 <DepartamentItem src={DepartamentImg10} href="https://www.cemaco.com/c-banos" name="Sanitarios y lavamanos"/>
                 <DepartamentItem src={DepartamentImg11} href="https://www.cemaco.com/c-cocina-y-mesa" name="Instalaciones de cocina"/>
-                <DepartamentItem src={DepartamentImg12} href="https://www.cemaco.com/c-acabados" name="Ver más"/>
-                <DepartamentItem src={DepartamentImg13} href="https://www.cemaco.com/c-autos-y-motos" name="Autos y motos"/>
-                <DepartamentItem src={DepartamentImg14} href="https://www.cemaco.com/c-patio-y-jardin" name="Jardín"/>
-                <DepartamentItem src={DepartamentImg15} href="https://www.cemaco.com/c-tecnologia" name="Seguridad en casa"/>
+                <DepartamentItem src={DepartamentImg12} href="https://www.cemaco.com/c-acabados" name="Ver más" />
+                <DepartamentItem src={DepartamentImg13} hidden={true}  href="https://www.cemaco.com/c-autos-y-motos" name="Autos y motos"/>
+                <DepartamentItem src={DepartamentImg14} hidden={true}  href="https://www.cemaco.com/c-patio-y-jardin" name="Jardín"/>
+                <DepartamentItem src={DepartamentImg15} hidden={true}  href="https://www.cemaco.com/c-tecnologia" name="Seguridad en casa"/>
+
             </div>
         );
     }

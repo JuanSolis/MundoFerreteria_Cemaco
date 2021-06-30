@@ -9,6 +9,14 @@
     flex-grow: 0.5;
 }
 
+.departamentListContainer .hidden{
+    display: none;
+}
+
+.departamentListContainer .block{
+    display: block;
+}
+
 .imgContainer{
     display: flex;
     justify-content: center;
@@ -47,7 +55,7 @@
 }
 
 #VerMas{
-    display: block;
+    cursor: pointer;
 }
 
 
@@ -76,4 +84,11 @@
     #VerMas{
         display: none;
     }
+
+    .departamentListContainer .hidden{
+        display: block;
+    }
+    
+
+
 }
