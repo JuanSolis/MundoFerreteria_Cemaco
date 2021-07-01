@@ -50,6 +50,7 @@
   .containerProductCatalog .catalogWrapper{
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .containerProductCatalog .catalogWrapper .prevIcon{
     display: block;

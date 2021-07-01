@@ -62,6 +62,27 @@ class ProductCatalog extends React.Component{
                    category: 'Barrenos Y Atornilladores',
                    url: 'https://www.cemaco.com/punta-phillips-no--2-de-1-plg-dewalt---ace-1047268/p'
                },
+               {
+                    Image: 'https://cemacogt.vteximg.com.br/arquivos/ids/363063-1100-1100/1046595_1.jpg?v=637591419042200000',
+                    detalle: 'DESTORNILLADOR Y ROTOMARTILLO INALÁMBRICO - PRETUL',
+                    precio: 'Q849.99',
+                    category: 'Barrenos Y Atornilladores',
+                    url: 'https://www.cemaco.com/destornillador-y-rotomartillo-inalambrico---pretul-1046595/p'
+                },
+                {
+                    Image: 'https://cemacogt.vteximg.com.br/arquivos/ids/342860-1100-1100/1028981_1.jpg?v=637591464218470000',
+                    detalle: 'BATERIA ION LITIO 18V 1.5AH - TRUPER',
+                    precio: 'Q419.99',
+                    category: 'Barrenos Y Atornilladores',
+                    url: 'https://www.cemaco.com/bateria-ion-litio-18v-1-5ah---truper-1028981/p'
+                },
+                {
+                    Image: 'https://cemacogt.vteximg.com.br/arquivos/ids/372822-1100-1100/1031461_1.jpg?v=637591378542030000',
+                    detalle: 'KIT TALADRO 12V + HIELERA MAKITA - MAKITA',
+                    precio: 'Q1,899.00',
+                    category: 'Barrenos Y Atornilladores',
+                    url: 'https://www.cemaco.com/kit-taladro-12v---hielera-makita---makita-1031461/p'
+                },
            ]
    };
 
