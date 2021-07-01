@@ -50,6 +50,16 @@
     color: #000000;
 }
 
+@media screen and (max-width:374px){
+    .toolItemContainer{
+        max-width: 150px;
+
+    }
+    .toolItemContainer .imgWrapper{
+        width: 100%;
+        height: 120px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .toolItemContainer{
