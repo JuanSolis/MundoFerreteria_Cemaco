@@ -13,7 +13,7 @@ class About extends React.Component{
                         <h2 className="tittle">Empresa</h2>
                         <img className="logoB" src={aboutLogo} alt="" />
                     </div>
-                    <div>
+                    <div className="aboutUswrapper">
                         <h2 className="somos">Somos una Empresa B</h2>
                         <p className="paragraph">Estamos orgullosos de ser reconocidos por los más altos estándares a nivel mundial de sostenibilidad social y ambiental. </p>
                         <div className="moreContainer">

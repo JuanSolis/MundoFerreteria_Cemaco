@@ -141,40 +141,41 @@
     }
     
     .aboutContainer .topAboutUs{
-        padding: 0 65px;
-        justify-content: space-between;
-        height: 100%;
+        width: 55%;
+        padding: 0 60px 0 65px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         align-items: center;
-        justify-content: flex-start;
         border-bottom: none;
         border-right: 0.5px solid #B3B3B3;
         margin-right: 50px;
+        gap: 55px;
     } 
     
     :is(.topAboutUs, .bottomAboutUs) .tittle{
         font-size: 25px;
     }
-    
     .topAboutUs img{
+        
         width: 74.86px;
         height: 106.66px;
-    }
-    .logoEmpresa{
-        margin-right: 50px;
     }
     
     .topAboutUs .somos{
         font-size: 25px;
         text-align: left;
     }
-    
+    .topAboutUs .aboutUswrapper{
+        flex-grow: 1;
+        width: 300px;
+    }
     .topAboutUs .paragraph{
         width: 100%;
         font-size: 16px;
         text-align: left;
         margin-top: 8px;
+        margin-bottom: 30px;
     }
     
     .topAboutUs .moreContainer{
@@ -198,7 +199,9 @@
     }
     
     .bottomAboutUs{
-        width: 50%;
+        flex-grow: 1;
+        width: 300px;
+        max-width: 30%;
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -209,6 +212,11 @@
     .bottomAboutUs p{
         margin-top: 10px;
         font-size: 16px;
+    }
+
+    
+    .bottomAboutUs .emailInput{
+        width: 100%;
     }
 
 }
