@@ -5,11 +5,11 @@ import whatsapp from '../../img/Path 9006.svg';
 import phone from '../../img/Path 9007.svg';
 import mail from '../../img/Path 9008.svg';
 import chat from '../../img/Path 9009.svg';
-import facebook from '../../img/facebook.png';
-import youtube from '../../img/youtube.png';
-import twitter from '../../img/twitter.png';
-import pinterest from '../../img/pinterest.png';
-import instagram from '../../img/instagram.png';
+import facebook from '../../img/Path 8563.svg';
+import youtube from '../../img/Path 8567.svg';
+import twitter from '../../img/Path 8561.svg';
+import pinterest from '../../img/Path 8562.svg';
+import instagram from '../../img/Group 7923.svg';
 
 import './Footer.css'; 
 
@@ -56,11 +56,11 @@ class Footer extends React.Component{
                                 </ul>
                             </div>
                         </div>
-                    <div className="footerItem">
+                        <div className="footerItem">
                         <h3>Grupo <img className="logoBlanco" src={cemacoLogo} alt="" /></h3>
                         <img className="moreItems" src={moreItemsNavBar} alt="" />
                         <div className="content">
-                            <ul className="content">
+                            <ul>
                                 <li><a href="https://grupocemaco.com/">Únete a nuestro equipo</a></li>
                                 <li><a href="https://www.cemaco.com/sostenibilidad">Sobre nosotros</a></li>
                                 <li><a href="https://www.cemaco.com/proveedores">Deseas ser proveedor</a></li>
@@ -71,31 +71,35 @@ class Footer extends React.Component{
                         </div>
                         
                     </div>
-                    <div className="contact">
-                        <h3 className="titleContacto">Mantente Conectado </h3>
-                        <div className="element">
-                            <img src={whatsapp} alt="" />
-                            <h3>Compra por WhatsApp</h3>
-                        </div>
-                        <div className="element">
-                            <img src={phone} alt="" />
-                            <h3>+ (502) 2499-9900</h3>
-                        </div>
-                        <div className="element">
-                            <img src={mail} alt="" />
-                            <h3>tusamigos@cemaco.com</h3>
-                        </div>
-                        <div className="element">
-                            <img src={chat} alt="" />
-                            <h3>Chat en línea</h3>
+                        <div className="contact ">
+                        <h3 className="titleContacto">Mantente Conectado</h3>
+                        <div className="contactElements">
+                            <ul className="">
+                                <li>
+                                    <img src={whatsapp} alt="" />
+                                    <a href="https://grupocemaco.com/">Compra por Whatsapp</a>
+                                </li>
+                                <li>
+                                    <img src={phone} alt="" />
+                                    <a href="https://www.cemaco.com/sostenibilidad">+ (502) 2499-9900</a>
+                                </li>
+                                <li>
+                                    <img src={mail} alt="" />
+                                    <a href="https://www.cemaco.com/proveedores">tusamigos@cemaco.com</a>
+                                </li>
+                                <li>
+                                    <img src={chat} alt="" />
+                                    <a href="https://www.cemaco.com/sostenibilidad">Chat en línea</a>
+                                </li>
+                            </ul>
                         </div>
                         <div className="socialNetworks">
-                                <img className="fb" src={facebook} alt="" />
-                                <img className="ig"src={instagram} alt="" />
-                                <img className="yb" src={youtube} alt="" />
-                                <img className="tw" src={twitter} alt="" />
-                                <img className="pt" src={pinterest} alt="" />
-                            </div>
+                                <a href="https://www.facebook.com/cemacogt/"><img className="fb" src={facebook} alt="" /></a>
+                                <a href="https://www.instagram.com/cemaco/?hl=es-la"><img className="ig"src={instagram} alt="" /></a>
+                                <a href="https://www.youtube.com/channel/UCpJPCPrEg3x3DeCKgblA43A"><img className="yb" src={youtube} alt="" /></a>
+                                <a href="https://twitter.com/cemaco_gt?lang=es"><img className="tw" src={twitter} alt="" /></a>
+                                <a href="https://www.pinterest.com/cemacoguatemala/"><img className="pt" src={pinterest} alt="" /></a>
+                        </div>
                     </div>
                     
                 </div>

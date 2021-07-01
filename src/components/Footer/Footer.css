@@ -29,33 +29,41 @@
     height: 9.18px;
 }
 
-.contact{
-    padding: 0 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.footerContainer .contact{
+    padding: 15px 30px;
 }
 
-.contact .element{
-    margin-bottom: 20.8px;
-    margin-top: 11.4px;
-    font-size: 12px;
-    font-weight: bold;
+.footerContainer .contact .contactElements ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    gap: 15px;
+}
+
+.footerContainer .contact .contactElements ul li{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
-.contact .element h3{
+.footerContainer .contact .contactElements ul li a {
     margin-top: 4.2px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.contact .element img{
-    width: 15.98px;
-    height: 15.98px;
+.contact .contactElements{
+    display: block;
+    color: white;
 }
+
+
 
 .footerContainer .politics{
     text-align: center;
@@ -68,63 +76,57 @@
     display: none;
 }
 
-
 .contact .socialNetworks{
     display: none;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
     .footerContainer .elementsWrapper {
-        padding: 0px 30px;
+        padding: 60px 65px;
         height: 324px;
     }
+    .elementsWrapper .wrapperItems{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }    
+
+
     .footerContainer .footerItem{
-        height: 100%;
-        width: 100%;
+        width: 187px;
+        text-align: left;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         padding: 0;
-        justify-content: center;
         border-bottom:none;
     }
 
     .footerItem h3 {
+        width: 100%;
         font-size: 19px;
         font-weight: bold;
         margin-bottom: 9px;
     }
-
-    .footerItem .content li {
-        margin-bottom: 7px;
-    }
-    .footerItem .content a {
-        font-size: 13px;
-        font-weight: normal;
-    }
-
-    .wrapperItems{
-        height: 100%;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-    }
-
     .footerItem .content{
         display: block;
+        width: 100%;
     }
 
     .footerItem .content ul{
         list-style: none;
      
     }
+    .footerItem .content li {
+        margin-bottom: 7px;
+    }
+    .footerItem .content a {
+        font-size: 13px;
+        font-weight: normal;
+        color: white;
+        text-decoration: none;
+    }
 
     .footerItem .moreItems{
         display: none;
-    }
-
-    .footerItem .content a {
-        color: white;
-        text-decoration: none;
     }
     
     .footerItem .logoBlanco{
@@ -141,10 +143,32 @@
         justify-content: center;
     }
 
+
+    .footerContainer .contact .contactElements ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 9px
+    }
+    .footerContainer .contact .contactElements ul li{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .footerContainer .contact .contactElements ul li a {
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: normal;
+    }
+
     .contact .titleContacto{
         font-size: 19px;
         font-weight: bold;
         margin-bottom: 9px;
+        display: block;
     }
     
     .contact .element{
@@ -156,11 +180,12 @@
         flex-direction: row;
     }
     
-    .contact .element h3{
-        margin-top: 4.2px;
+    .contact .contactElements{
+        width: 100%;
     }
+
     
-    .contact .element img{
+    .contact .contactElements li img{
         width: 14.05px;
         height: 14.05px;
         margin-right: 7.8px;
@@ -203,11 +228,5 @@
         color: #101E8E;
         font-size: 8px;
         padding: 7.4px 0px 17.9px 0px;
-    }
-}
-
-@media screen and (min-width:768px) {
-    .footerContainer .elementsWrapper {
-        padding: 0px 64px;
     }
 }
