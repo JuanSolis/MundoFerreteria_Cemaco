@@ -1,6 +1,5 @@
 .containerProductCatalog {
     width: 100%;
-    padding: 0 16.5px 0 15px;
   }
 
 .containerProductCatalog .headerProductCatalog{
@@ -52,12 +51,21 @@
     display: flex;
     align-items: center;
   }
-  .containerProductCatalog .catalogWrapper .prevIcon, .nextIcon{
+  .containerProductCatalog .catalogWrapper .prevIcon{
     display: block;
     width: 12.75px;
     height: 22.45px;
-    margin: 0 10px;
+    margin: 0 20px 0 26px;
   }
+
+  .containerProductCatalog .catalogWrapper .nextIcon{
+    display: block;
+    width: 12.75px;
+    height: 22.45px;
+    margin: 0 26px 0 20px;
+  }
+
+
   .containerProductCatalog .containerWrapper{
     overflow-x: hidden;
 

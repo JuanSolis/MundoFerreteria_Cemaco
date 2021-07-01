@@ -1,7 +1,6 @@
 .brandsContainer{
     width: 100%;
     margin-top: 37px;
-    padding: 0 15px 0 15.2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,14 +87,19 @@
         padding: 0;
     }
 
-    
-    .brandsContainer .sliderWrapper .prevIcon, .nextIcon{
+    .brandsContainer .sliderWrapper .prevIcon{
         display: block;
         width: 12.75px;
         height: 22.45px;
-        margin: 0 10px;
+        margin: 0 20px 0 26px;
     }
 
+    .brandsContainer .sliderWrapper .nextIcon{
+        display: block;
+        width: 12.75px;
+        height: 22.45px;
+        margin: 0 26px 0 20px;
+    }
 
     .brandsContainer .brandSlider{
         width: 100%;

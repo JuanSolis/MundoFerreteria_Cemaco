@@ -28,7 +28,7 @@ class HeaderMobilCemaco extends React.Component{
                         </a>
                     </div>
                 </div>
-                <div className="hero">
+                <div className="hero container">
                     <div className="topHero">
                         <a href="https://www.cemaco.com/"><img src={CemacoLogoHeader} className="cemacoLogo" alt="" /></a>
                         <div className="searchInput">
@@ -73,7 +73,7 @@ class HeaderMobilCemaco extends React.Component{
                         </ul>
                     </nav>
                 </div>
-                <div className="badge">
+                <div className="badge container">
                     <p>Envío gratis en tu primera compra, <a href="https://www.cemaco.com/activacion">entérate aquí</a></p>
                     <img src={closeBadge} className="closeBtn" alt="" />
                 </div>

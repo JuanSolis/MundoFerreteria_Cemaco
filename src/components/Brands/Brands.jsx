@@ -23,7 +23,7 @@ class Brands extends React.Component{
     };
     render(){
         return(
-            <div className="brandsContainer">
+            <div className="re-central brandsContainer">
                 <h2 className="tittle">Las mejores marcas</h2>
                 <div className="sliderWrapper">
                     <img src={prevArrowIcon} className="prevIcon"alt="" onClick={this.scroll.bind(null,-1)}/>

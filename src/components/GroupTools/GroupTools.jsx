@@ -17,7 +17,7 @@ import more from '../../img/Rectangle 263.png';
 class GroupTools extends React.Component{
     render(){
         return(
-            <div className="groupTools">
+            <div className="re-central groupTools">
                 <div className="headerGroupTools">
                     <h2 className="tittle">Herramientas</h2>
                     <span className="more"><a href="https://www.cemaco.com/c-herramientas">Ver más</a> <img src={MoreIcon}/></span>

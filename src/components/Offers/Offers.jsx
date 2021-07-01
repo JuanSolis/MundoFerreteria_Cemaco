@@ -13,7 +13,7 @@ import './Offers.css';
 class Offers extends React.Component{
     render(){
         return(
-            <div className="offersContainer">
+            <div className="re-central offersContainer">
                 <OfferProduct screenWidth={this.props.screenWidth} src={OfferProducto1} srcDesktop={OfferProducto1Desktop} color="#1276A2" offer="Oferta Q349.99" nameOfferProduct="Moto-tool"/>
                 <OfferProduct screenWidth={this.props.screenWidth} src={OfferProducto2} srcDesktop={OfferProducto2Desktop} color="#BBD556" offer="Oferta Q129.99" nameOfferProduct="Estantería"/>
                 <OfferProduct screenWidth={this.props.screenWidth} src={OfferProducto3} srcDesktop={OfferProducto3Desktop} color="#996BA0" offer="Oferta desde Q38.49 c/u" nameOfferProduct="Cajas de herramientas"/>
