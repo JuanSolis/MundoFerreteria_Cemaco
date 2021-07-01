@@ -57,8 +57,8 @@ class ProductCatalog extends React.Component{
            
             <div className="containerProductCatalog">
                 <div className="headerProductCatalog">
-                    <h2 className="tittle"><a href="https://www.cemaco.com/c-herramientas/herramientas-electricas/barrenos-y-atornilladores">Barrenos Y Atornilladores</a></h2>
-                    <span className="more">Ver todos <img src={MoreIcon}/></span>
+                    <h2 className="tittle">Barrenos y Atornilladores</h2>
+                        <span className="more"><a href="https://www.cemaco.com/c-herramientas/herramientas-electricas/barrenos-y-atornilladores">Ver todos </a> <img src={MoreIcon}/></span>
                 </div>
                 <div className="containerWrapper">
                     {apiElement.products.map((product,i) => {

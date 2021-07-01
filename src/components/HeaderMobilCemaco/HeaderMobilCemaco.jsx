@@ -7,7 +7,7 @@ import wishulstIcon from '../../img/Path 8953.svg';
 import checkOutIcon from '../../img/Group 1060.svg';
 import searchIcon from '../../img/Group 564.svg';
 import moreItemsNavBar from '../../img/Path 52.svg';
-import closeBadge from '../../img/Path 8671.svg';
+import closeBadge from '../../img/Scroll Group 46.svg';
 import downArrow from '../../img/downArrow.svg';
 import './HeaderMobilCemaco.css';
 

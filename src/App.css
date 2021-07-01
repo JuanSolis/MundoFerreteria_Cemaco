@@ -116,6 +116,11 @@
         color: #000000;
         text-decoration: none;
     }
+    :is(.Departaments, .headerProductCatalog, .headerGroupTools) .more a:hover{
+        color: #000000;
+        text-decoration: underline;
+    }
+
     :is(.Departaments, .headerProductCatalog, .headerGroupTools) .more img{
         margin-left: 3px;
         width: 15.41px;

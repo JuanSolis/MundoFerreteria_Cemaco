@@ -192,9 +192,8 @@
 .header .badge .closeBtn {
     margin-left: auto;
     background-size: contain;
-    width: 15px;
-    height: 15px;
-    padding: 0px;
+    width: 10px;
+    height: 10px;
 }
 
 /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
@@ -206,6 +205,11 @@
 
     .header .badge{
         padding: 0 30px;
+    }
+
+    .header .badge .closeBtn{
+        width: 12px;
+        height: 12px;
     }
 }
 
@@ -319,8 +323,5 @@
         color: #FFFFFF;
     }
     
-    .header .badge .closeBtn{
-        width: 20px;
-        height: 20px;
-    }
+    
 }

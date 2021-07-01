@@ -14,8 +14,10 @@
 
   .groupTools .toolsWrapper{
       display: flex;
-      justify-content: space-between;
+      gap: 10px;
       flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
   }
 
   @media screen and (min-width:768px) {
@@ -27,12 +29,19 @@
         margin-top: 55.2px;
       }
     
+    .groupTools .toolsWrapper {
+        gap: 30px;
+    }
   }
 
 
   @media screen and (min-width:1024px) {
     .groupTools{
         padding: 0 64px 0 64px;
+    }
+
+    .groupTools .toolsWrapper {
+        gap: 96px;
     }
     
   }
