@@ -77,7 +77,7 @@ class Footer extends React.Component{
                             <ul className="">
                                 <li>
                                     <img src={whatsapp} alt="" />
-                                    <a href="#">Compra por Whatsapp</a>
+                                    <a href="https://wa.me/+50224999990"target="_blank">Compra por Whatsapp</a>
                                 </li>
                                 <li>
                                     <img src={phone} alt="" />
@@ -89,7 +89,7 @@ class Footer extends React.Component{
                                 </li>
                                 <li>
                                     <img src={chat} alt="" />
-                                    <a href="#">Chat en línea</a>
+                                    <a href="https://wa.me/+50224999990">Chat en línea</a>
                                 </li>
                             </ul>
                         </div>
