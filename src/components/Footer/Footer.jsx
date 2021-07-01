@@ -107,7 +107,14 @@ class Footer extends React.Component{
                 
 
                 </div>
-                <p className="politics">Politica y privacidad. Términos y condiciones.</p>
+                <div className="politics">
+                   <a href="https://www.cemaco.com/privacidad-y-seguridad">
+                        Politica y privacidad. 
+                   </a>
+                   <a href="https://www.cemaco.com/terminos-y-condiciones">
+                        Términos y condiciones.
+                   </a>
+                </div>
             </div>
         );
     }
