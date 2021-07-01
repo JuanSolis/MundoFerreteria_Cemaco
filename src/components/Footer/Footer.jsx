@@ -77,19 +77,19 @@ class Footer extends React.Component{
                             <ul className="">
                                 <li>
                                     <img src={whatsapp} alt="" />
-                                    <a href="https://grupocemaco.com/">Compra por Whatsapp</a>
+                                    <a href="#">Compra por Whatsapp</a>
                                 </li>
                                 <li>
                                     <img src={phone} alt="" />
-                                    <a href="https://www.cemaco.com/sostenibilidad">+ (502) 2499-9900</a>
+                                    <a href="tel:+50224999900">+ (502) 2499-9900</a>
                                 </li>
                                 <li>
                                     <img src={mail} alt="" />
-                                    <a href="https://www.cemaco.com/proveedores">tusamigos@cemaco.com</a>
+                                    <a href="mailto:tusamigos@cemaco.com">tusamigos@cemaco.com</a>
                                 </li>
                                 <li>
                                     <img src={chat} alt="" />
-                                    <a href="https://www.cemaco.com/sostenibilidad">Chat en línea</a>
+                                    <a href="#">Chat en línea</a>
                                 </li>
                             </ul>
                         </div>
