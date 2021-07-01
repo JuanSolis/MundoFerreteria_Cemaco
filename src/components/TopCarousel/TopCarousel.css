@@ -39,19 +39,22 @@
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
   }
   .slide2 {
-    background-image: url("../../img/Mask\ Group\ 2213.svg");
+    background-image: url("../../img/Mask\ Group\ 2213@2x.png");
     background-size: cover;
     background-position: bottom;
+    image-rendering: optimizeQuality;
     background-repeat: no-repeat;
     left: 100%
   }
   .slide3 {
-    background-image: url("../../img/Group\ 7914.png");
+    background-image: url("../../img/Group\ 7922@2x.png");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
     left: 200%
   }
 
