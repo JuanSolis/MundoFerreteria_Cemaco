@@ -40,7 +40,7 @@ class HeaderMobilCemaco extends React.Component{
                                 <img className="icon userAccountIcon" src={userAccountIcon} alt="" />
                             </a>
                             <a href="https://www.cemaco.com/login?ReturnUrl=%2f_secure%2faccount%2fwishulst">
-                                <img className="icon wishulstIcon" src={wishulstIcon} alt="" />
+                                <img className="icon wishListIcon" src={wishulstIcon} alt="" />
                             </a>
                             <a href="https://www.cemaco.com/checkout">
                                 <img className="icon checkOutIcon" src={checkOutIcon} alt="" />
