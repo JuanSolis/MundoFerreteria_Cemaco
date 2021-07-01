@@ -38,10 +38,11 @@ class  App extends React.Component {
           <TopCarousel/>
         </div>
         <Offers screenWidth={this.state.screenWidth}/>
-        {/* <div className="TopServicesBanners">
+        <div className="TopServicesBanners">
           <ServiceBanner id="topService1" href="https://www.cemaco.com/c-plomeria" colorFont="black" service="Plomería"/>
           <ServiceBanner id="topService2" href="https://www.cemaco.com/c-pinturas" colorFont="black"  service="Pinturas"/>
-        </div> */}
+
+        </div>
         
         <div className="Departaments">
           <h2 className="tittle">Navega por departamento</h2>

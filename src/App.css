@@ -8,7 +8,8 @@
 
 .TopServicesBanners{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 0px 16px 13px 15px;

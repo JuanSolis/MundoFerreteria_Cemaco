@@ -8,7 +8,6 @@
 
 #topService1{
     background-image: url("../../img/service1Extend.png");
-
 }
 
 #topService2{
@@ -51,12 +50,13 @@
 
   /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/
 @media screen and (min-width:768px) {
-    .serviceBannerContainer {
+    .serviceBannerContainer{
+        flex-grow: 1;
         height: 289px;
     }
 
     .serviceBannerContainer .banner{
-        width: 420px;
+        width: 100%;
         padding: 26px 0 0 30px;
     }
 

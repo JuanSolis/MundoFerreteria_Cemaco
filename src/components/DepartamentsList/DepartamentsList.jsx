@@ -38,7 +38,7 @@ class DepartamentsList extends React.Component{
                 <DepartamentItem src={DepartamentImg9}  href="https://www.cemaco.com/c-plomeria" name="Plomería"/>
                 <DepartamentItem src={DepartamentImg10} href="https://www.cemaco.com/c-banos" name="Sanitarios y lavamanos"/>
                 <DepartamentItem src={DepartamentImg11} href="https://www.cemaco.com/c-cocina-y-mesa" name="Instalaciones de cocina"/>
-                <DepartamentItem src={DepartamentImg12} href="#" name="Ver más" />
+                <DepartamentItem src={DepartamentImg12} href="" name="Ver más" />
                 <DepartamentItem src={DepartamentImg13} hidden={true}  href="https://www.cemaco.com/c-autos-y-motos" name="Autos y motos"/>
                 <DepartamentItem src={DepartamentImg14} hidden={true}  href="https://www.cemaco.com/c-patio-y-jardin" name="Jardín"/>
                 <DepartamentItem src={DepartamentImg15} hidden={true}  href="https://www.cemaco.com/c-tecnologia" name="Seguridad en casa"/>

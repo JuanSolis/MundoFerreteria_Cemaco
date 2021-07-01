@@ -35,22 +35,22 @@
   }
   /* each slide backgound color */  
   .slide1 {
-    background-image: url("../../img/0TRUPER2.png");
+    background-image: url("../../img/0TRUPER2@2x.png");
     background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
-    left: 0;
   }
   .slide2 {
     background-image: url("../../img/Mask\ Group\ 2213.svg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: bottom;
     background-repeat: no-repeat;
     left: 100%
   }
   .slide3 {
     background-image: url("../../img/Group\ 7914.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: bottom;
     background-repeat: no-repeat;
     left: 200%
   }
