@@ -1,7 +1,7 @@
 import React from 'react';
 import aboutLogo from '../../img/aboutLogo.svg';
 import MoreIcon from '../../img/Icono-FlechaVermásTexto-Cemaco.svg';
-import searchIcon from '../../img/Group 564.svg';
+import sendIcon from '../../img/Group 595.svg';
 import './About.css'; 
 
 class About extends React.Component{
@@ -26,7 +26,7 @@ class About extends React.Component{
                     <p>Recibe ofertas, noticias y promociones</p>
                     <div className="emailInput">
                         <input type="text"  placeholder="Ingresa tu email"/>
-                        <img src={searchIcon}  alt="" />
+                        <img src={sendIcon}  alt="" />
                     </div>
                 </div>
             </div>

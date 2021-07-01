@@ -1,6 +1,7 @@
 .containerProductCatalog {
     padding: 0 15.5px 0 15px;
     width: 100%;
+    
   }
 
 .containerProductCatalog .headerProductCatalog{
@@ -8,12 +9,14 @@
   flex-direction: column;
   align-items: center;
   margin-top: 31px;
+
 }
 
 .containerProductCatalog .containerWrapper{
-    overflow-x: scroll;
     display: flex;
     margin-bottom: 10px;
+    overflow-x: scroll;
+
 }
   
 .containerProductCatalog .containerWrapper::-webkit-scrollbar {

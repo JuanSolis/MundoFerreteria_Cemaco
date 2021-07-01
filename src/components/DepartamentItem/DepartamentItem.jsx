@@ -15,14 +15,14 @@ class DepartamentItem extends React.Component{
     }
     render(){   
         return(
-            <div className={`departamentItemWrapper ${this.props.hidden ? 'hidden': '' }`} id={this.props.name == 'Ver más' ? 'VerMas': '' } onClick={ this.props.name == 'Ver más' ? this.moreItems : ()=>{}}>
-                <div className="imgContainer">
-                    <img className="departamentImg" src={this.props.src} alt="" />
-                    <h2 className="verMas" style={{display: this.props.name == 'Ver más' ? 'block': 'none' }}>{this.props.name}</h2>
-                </div>
+            <a href={this.props.href} className={`departamentItemWrapper ${this.props.hidden ? 'hidden': '' }`} id={this.props.name == 'Ver más' ? 'VerMas': '' } onClick={ this.props.name == 'Ver más' ? this.moreItems : ()=>{}}>
+                    <div className="imgContainer">
+                        <img className="departamentImg" src={this.props.src} alt="" />
+                        <h2 className="verMas" style={{display: this.props.name == 'Ver más' ? 'block': 'none' }}>{this.props.name}</h2>
+                    </div>
                 
-                <h3 className="departamentName"><a href={this.props.href}>{this.props.name}</a></h3>
-            </div>
+                    <h3 className="departamentName">{this.props.name}</h3>
+            </a>
         );
     }
 }

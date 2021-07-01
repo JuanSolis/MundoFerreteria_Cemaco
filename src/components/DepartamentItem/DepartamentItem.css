@@ -1,13 +1,19 @@
 .departamentItemWrapper{
     position: relative;
-    margin-top: 29px;
     width: 108px;
     max-width: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 0.5;
+    text-decoration: none;
+    color: #000000;
 }
+
+.departamentItemWrapper:hover{
+    text-decoration: underline;
+}
+
 
 .departamentListContainer .hidden{
     display: none;
@@ -49,10 +55,6 @@
     margin-top: 8px;
 }
 
-.departamentItemWrapper .departamentName a {
-    text-decoration: none;
-    color: #000000;
-}
 
 #VerMas{
     cursor: pointer;
@@ -62,7 +64,6 @@
 @media screen and (min-width: 768px) {
     
     .departamentItemWrapper{
-        margin-top: 44px;
         width: 175px;
         max-width: 250px;
     }

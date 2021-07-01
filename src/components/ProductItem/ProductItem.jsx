@@ -15,12 +15,14 @@ class ProductItem extends React.Component {
                     <img src={favIcon} alt="" />
                 </div>
                 <div className="elements">
-                    <img className="imgProduct" src={this.props.img} alt="" />
-                    <div className="colorsContainer">
-                        <img className="leftArrow" src={arrowColors2} alt="" />
-                        <img className="colors" src={ColorsElip} alt="" />
-                        <img className="rightArrow" src={arrowColors} alt="" />
-                    </div>
+                        <a href={this.props.href}>
+                            <img className="imgProduct" src={this.props.img} alt="" />
+                        </a>
+                        <div className="colorsContainer">
+                            <img className="leftArrow" src={arrowColors2} alt="" />
+                            <img className="colors" src={ColorsElip} alt="" />
+                            <img className="rightArrow" src={arrowColors} alt="" />
+                        </div>
                     <h3 className="util">Black &amp; Decker</h3>
                     <h3 className="productDetail"><a href={this.props.href} target="_blank">{this.props.details}</a></h3>
                     <img className="stars" src={starsIcon} alt="" />
