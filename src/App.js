@@ -27,7 +27,7 @@ class  App extends React.Component {
   }
 
   componentWillUnmount() {
-    window.addEventListener("resize", this.handleResize);
+    this.setState({screenWidth:window.innerWidth});
   } 
 
   render(){

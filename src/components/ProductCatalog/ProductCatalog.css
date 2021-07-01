@@ -1,7 +1,6 @@
 .containerProductCatalog {
-    padding: 0 15.5px 0 15px;
     width: 100%;
-    
+    padding: 0 16.5px 0 15px;
   }
 
 .containerProductCatalog .headerProductCatalog{
@@ -12,6 +11,9 @@
 
 }
 
+.containerProductCatalog .catalogWrapper .prevIcon, .nextIcon{
+  display: none;
+}
 .containerProductCatalog .containerWrapper{
     display: flex;
     margin-bottom: 10px;
@@ -39,20 +41,28 @@
 }
 
 @media screen and (min-width:768px) {
-    .containerProductCatalog {
-      padding: 0 30px;
-
-    }
-
+  .containerProductCatalog {
+    padding: 0px;
+  }
   .containerProductCatalog .headerProductCatalog{
     margin-top: 28px;
-  } 
-} 
-
-
-@media screen and (min-width:1024px) {
-  .containerProductCatalog {
-    padding: 0 64px;
   }
+  
+  .containerProductCatalog .catalogWrapper{
+    display: flex;
+    align-items: center;
+  }
+  .containerProductCatalog .catalogWrapper .prevIcon, .nextIcon{
+    display: block;
+    width: 12.75px;
+    height: 22.45px;
+    margin: 0 10px;
+  }
+  .containerProductCatalog .containerWrapper{
+    overflow-x: hidden;
+
+}
+
 
 } 
+

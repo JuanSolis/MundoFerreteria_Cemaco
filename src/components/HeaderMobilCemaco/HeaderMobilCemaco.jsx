@@ -1,5 +1,5 @@
 import React from 'react';
-import JuguetonLogoHeader from '../../img/JUGUETON SIN SOMBRA.svg';
+import JuguetonLogoHeader from '../../img/JUGUETON SIN SOMBRA@2x.png';
 import CemacoLogoHeader from '../../img/LOGO CEMACO HORIZONTAL  BLANCO.svg';
 import bebeJuguetonLogoHeader from '../../img/Group 1051.svg';
 import userAccountIcon from '../../img/Path 8954.svg';

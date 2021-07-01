@@ -194,6 +194,7 @@
     background-size: contain;
     width: 10px;
     height: 10px;
+    cursor: pointer;
 }
 
 /* Estilos Responsivos para pantallas mas grandes que un dispositivo movil*/

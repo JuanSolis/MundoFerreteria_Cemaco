@@ -1,4 +1,5 @@
 .brandsContainer{
+    width: 100%;
     margin-top: 37px;
     padding: 0 15px 0 15.2px;
     display: flex;
@@ -6,7 +7,17 @@
     align-items: center;
 }
 
-.brandsContainer .brandSlider{
+.brandsContainer .sliderWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.brandsContainer .sliderWrapper .prevIcon, .nextIcon{
+    display: none;
+}
+
+.sliderWrapper .brandSlider{
     margin-top: 14px;
     width: 100%;
     height: 45px;
@@ -53,12 +64,12 @@
     object-fit: fill;
 }
 
-.brandsContainer .brandSlider::-webkit-scrollbar {
+.sliderWrapper .brandSlider::-webkit-scrollbar {
     height: 8px;
   }
   
   /* Track */
-  .brandsContainer .brandSlider::-webkit-scrollbar-track {
+.sliderWrapper .brandSlider::-webkit-scrollbar-track {
     background-color: #F6F6F6;
     width: 100%;
     height: 8px;
@@ -66,7 +77,7 @@
   }
    
   /* Handle */
-  .brandsContainer .brandSlider::-webkit-scrollbar-thumb {
+.sliderWrapper .brandSlider::-webkit-scrollbar-thumb {
     background-color: #94D500; 
     border-radius: 4px;
     width: 5px;
@@ -74,16 +85,22 @@
 
   @media screen and (min-width:768px) {
     .brandsContainer{
-        padding: 0 30px 0 30px;
+        padding: 0;
     }
+
     
+    .brandsContainer .sliderWrapper .prevIcon, .nextIcon{
+        display: block;
+        width: 12.75px;
+        height: 22.45px;
+        margin: 0 10px;
+    }
+
+
     .brandsContainer .brandSlider{
         width: 100%;
         height: 70px;
-        overflow-y: hidden;
-        overflow-x: scroll;
-        display: flex;
-        align-items: center;
+        overflow-x: hidden;
     }
     
     .brand{
@@ -144,8 +161,3 @@
     
   }
 
-  @media screen and (min-width:1024px) {
-    .brandsContainer{
-        padding: 0 64px 0 64px;
-    }
-  }
